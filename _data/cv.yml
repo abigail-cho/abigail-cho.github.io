@@ -15,20 +15,14 @@
   contents:
     - title: Technical Product Writer
       department: GRIN
-      year: July 2021 - Present
-      description: Setting standards and forging values as the company\u0027s first technical writer.
-      - Drafted, revised, edited, and published all product-related documentation, including in-app messaging, product announcements, release notes, UX writing, internal documentation, and customer documentation 
-      - Coordinated with cross-functional teams and stakeholders to deliver dcumentation, including Product Management, Product Marketing, Product Design, Engineering, Customer Education, Customer Success, and Technical Success Engineering 
-      - Interviewed subject-matter experts (SMEs) to translate their knowledge into documentation, including product managers, product designers, and engineers
-      - Operated in 8-week Program Increments (PIs) and 2-week sprints in tandem with Engineering sprints and development cycles 
-      - Delivered and maintained documentation in feature areas supported by 8 Product and Engineering pods
-      - Lead monthly workshop calls with Customer Success, Customer Success Engineering, and Technical Success Engineering 
-      - title: Planned, executed, and delivered multiple technical writing projects, including: 
-        contents: 
-            - Migrating customer documentation from an old knowledge base host to another
-            - Establishing and maintaining GRIN\u0027s first Technical Writing Style Guide 
-            - Defining and maintaining technical writing domains, processes, and responsibilities at GRIN 
-            - Auditing, assessing, and reporting on GRIN\u0027s internal technical documentation written by Engineering, Cybersecurity, Product Management, and Customer Success Engineering
+      year: Jul. 2021 - Present
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
             
     - title: Teaching Assistant
       department: Carnegie Mellon University, Dietrich College of Humanities
@@ -39,7 +33,7 @@
 
     - title: Junior Technical Writer
       department: Two Six Labs
-      year: June 2018 - July 2020
+      year: Jun. 2018 - Jul. 2020
       description: 
         - Description 1
         - Description 2
@@ -49,21 +43,21 @@
   contents:
     - title: Master of Arts, Professional Writing
       institution: Carnegie Mellon University
-      year: August 2020 - May 2021
+      year: Aug. 2020 - May 2021
     - title: Bachelor of Science, Technical Writing and Communication
       institution: Carnegie Mellon University
-      year: August 2014 - May 2018
+      year: Aug. 2014 - May 2018
     - title: Minor, Physics 
       institution: Carnegie Mellon University 
-      year: August 2014 - May 2018
+      year: Aug. 2014 - May 2018
 
 - title: Certifications
   type: time_table
   contents:
-    - year: June 2023
+    - year: Jun. 2023
       title: Information Architecture Fundamentals 
       institution: <a href="https://ude.my/UC-7bf59485-582b-4d1c-8aeb-945d3f485214">Udemy</a> 
-    - year: April 2023
+    - year: Apr. 2023
       title: Foundations of User Experience (UX) Design
       institution: <a href="https://www.coursera.org/account/accomplishments/verify/6V67NBM27VF9">Google</a>
 
