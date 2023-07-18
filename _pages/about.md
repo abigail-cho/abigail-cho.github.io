@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Technical Writer | Fairfax, VA
+subtitle: Technical Writer
 
 profile:
   align: right
@@ -25,7 +25,7 @@ Welcome to my portfolio! I'm an expert technical writer with over 5 years of exp
 * New feature spotlights 
 * Style guides 
 
-For more details about my experience, please head over to my [portfolio](/portfolio). If you need to contact me, send me an email at [abscho@gmail.com](mailto:abscho@gmail.com) or send me a message on [LinkedIn](https://linkedin.com/in/abscho). 
+For more details about my experience, please head over to my [portfolio](/portfolio). If you need to contact me, send me an email at [abscho@gmail.com](mailto:abscho@gmail.com) or send me a message on [LinkedIn](https://linkedin.com/in/abscho). I am currently based out of **Fairfax, VA.**
 
 Ever since I was younger, I always loved to not only learn about new ideas, but explaining and sharing my excitement with my friends. For a long time, this was how I celebrated my love for science and writing: discovering wondrous, sometimes fantastic concepts about the world around us, then rewriting it into simpler terms so others around me could see how amazing the world is, too. I always waited for the moment when I could see the pieces fall into place in their mind and a spark of understanding shine in their eyes. 
 
