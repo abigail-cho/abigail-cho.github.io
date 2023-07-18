@@ -5,8 +5,9 @@ permalink: /portfolio/
 description: A collection of my past professional and personal work. 
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Professional, Personal]
 horizontal: false
+
 ---
 
 <!-- pages/projects.md -->
