@@ -1,81 +1,48 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Manually uploading content
+description: How-to article
+img: 
 importance: 1
 category: Professional
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+A procedural article describing how creators can submit their social media content through their personal portal, the Live Site, to brands they are collaborating with. This article assumed these influencers had experience working with brands as well as some previous knowledge about the Live Site's features and functionality.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This article was available publicly on the company's documentation site, so none of the content has been redacted in the sample below. The current version can be found <a href="https://help.grin.co/docs/manually-uploading-content">here</a>.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<hr>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+# Manually Uploading Content
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+If you’ve been assigned non-network tasks or you haven’t connected your social networks, you can complete tasks with collaborating brands by **manually uploading content** via your Live Site. When you manually upload, you have to provide a combination of a file copy of your content, a link, and the metrics associated with your content depending on the type of task you’re completing.
 
+> **Note**
+>
+> * Some social network uploads, such as Instagram Stories, must be captured before they expire.
+> * Manually uploading content can be time consuming and potentially inaccurate for delivering social network tasks (such as Instagram or TikTok) as your content metrics change. This may affect how your collaborating brands perceive your content’s performance. To ensure you always share your content with the most up-to-date stats, we **highly recommend** connecting your social accounts with GRIN. This allows GRIN to automatically pull your content and metrics directly from your accounts and share that data directly with your collaborating brands. 
+> * You can learn how to connect your social networks with our help articles in [Managing Social Networks](https://help.grin.co/v1/docs/managing-social-networks). For more information on how GRIN uses your data, you can check out our help articles [Creator Data Privacy](https://help.grin.co/v1/docs/creator-data-privacy) and [Understanding First-Party Data.](https://help.grin.co/v1/docs/understanding-first-party-data)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## What you'll need
 
+* Your **Live Site.** If you don’t have a Live Site, contact your collaborating brand to generate one for you.
+* An active **program** with a collaborating brand that you can deliver content to  
+* If you’re delivering for a **social network task** (such as an Instagram post or TikTok video), you’ll need an **image or video file** copy of your content, your post’s **URL**, your post’s **date of post** (if applicable), and your post’s **engagement metrics** from within the first 24 hours of your posting
+* If you’re delivering for a **non-network task**, the requirements will be different depending on the type:
+  * **File Upload:** An image, video, Word document, or PDF file 
+  * **URL:** A link to your content 
+  * **Text:** Copy and pasted text of your content, such as a post, blog, or review
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## How to do it
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+1. Navigate to your **Live Site.**
+2. Select **View** <img src="images/manually-uploading-content-assets/view.png"></img> on the program you’re submitting content for.
+3. In the **Tasks** module, select **Deliver** <img src="images/manually-uploading-content-assets/deliver.png"></img>.
+4. Select **View** <img src="images/manually-uploading-content-assets/view.png"></img> on the task you’re submitting content for. 
+5. Depending on the type of task you’re delivering for, provide the following: 
+   1. If you’re delivering for a **social network task**, such as an Instagram post or a TikTok video, then upload <img src="images/manually-uploading-content-assets/upload icon.png"></img> your **file copy**, enter your post’s **URL** and **date of post** (if applicable), and enter your post’s **metrics**.
+   2. If you’re delivering for a **non-network task**, upload <img src="images/manually-uploading-content-assets/upload icon.png"></img> your **file**, enter your **URL**, or paste in your **text**.
+6. Select **Deliver** <img src="images/manually-uploading-content-assets/deliver.png"></img>.
+
+That’s it! Your content has been delivered. Your collaborating brand should receive a copy of your post, its URL, and its metrics. 
