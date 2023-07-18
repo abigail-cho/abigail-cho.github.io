@@ -17,18 +17,21 @@
       department: GRIN
       year: July 2021 - Present
       description:
-        - Drafted, revised, edited, and published all product-related documentation, including in-app messaging, product announcements, release notes, UX writing, internal documentation, and customer documentation
+        - Drafted, revised, edited, and published all product-related documentation for 8 Product and Engineering pods, including in-app messaging, product announcements, release notes, UX writing, internal documentation, and customer documentation
         - Coordinated with cross-functional teams and stakeholders to deliver dcumentation, including Product Management, Product Marketing, Product Design, Engineering, Customer Education, Customer Success, and Technical Success Engineering
         - Interviewed subject-matter experts (SMEs) to translate their knowledge into documentation, including product managers, product designers, and engineers
-        - Operated in 8-week Program Increments (PIs) and 2-week sprints in tandem with Engineering sprints and development cycles
-        - Delivered and maintained documentation in feature areas supported by 8 Product and Engineering pods
-        - Lead monthly workshop calls with Customer Success, Customer Success Engineering, and Technical Success Engineering 
+        - Operated directly in Jira with 8-week Program Increments (PIs) and 2-week sprints in tandem with Engineering sprints and development cycles
+        - Led monthly workshop calls with Customer Success, Customer Success Engineering, and Technical Success Engineering to document common support and customer pain points in documentation 
+        - Interviewed customers in product discovery and Product Advisory Group calls to learn about customers&#39; workflows, frustrations, and needs to perform their jobs
         - title: Planned, executed, and delivered multiple technical writing projects, including&#58;
           contents:
-            - Migrating customer documentation from an old knowledge base host to another
+            - Migrating 300&#43; user-facing articles from an old knowledge base host to another
             - Establishing and maintaining GRIN&#39;s first Technical Writing Style Guide 
             - Defining and maintaining technical writing domains, processes, and responsibilities at GRIN 
             - Auditing, assessing, and reporting on GRIN&#39;s internal technical documentation written by Engineering, Cybersecurity, Product Management, and Customer Success Engineering
+            - Auditing Support tickets to identify common documentation dropoff points and remedying these pitfalls 
+            - Researching, implementing, and leveraging Google Analytics to track reader patterns and inform documentation priorities
+            - Researching, defining, and leading customer interviews to test the knowledge base site&#39;s information architecture and uncover gaps in documentation
             
     - title: Teaching Assistant
       department: Carnegie Mellon University, Dietrich College of Humanities
@@ -71,6 +74,6 @@
   type: map
   contents:
     - name: Skills 
-      value: Agile methodologies, Markdown, CSS, HTML, Python, R, docs-as-code, project management
+      value: Agile methodologies, Markdown, CSS, HTML, Python, R, docs-as-code, project management, API documentation
     - name: Technologies 
-      value: Jira, Confluence, Git, Guru, Document360, Sphinx, Intercom, Zendesk, InVision, Figma, Canva, Adobe Photoshop, Adobe Illustrator, Clari Copilot, Loom, Slack, Zoom, Google Suite
+      value: Jira, Confluence, Github, Guru, Document360, Sphinx, Intercom, Zendesk, InVision, Figma, Canva, Adobe Photoshop, Adobe Illustrator, Clari Copilot, Loom, Slack, Zoom, Google Suite
