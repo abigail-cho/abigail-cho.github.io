@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Technical Writer
+subtitle: Technical Writer | Fairfax, VA
 
 profile:
   align: right
@@ -25,9 +25,11 @@ Welcome to my portfolio! I'm an expert technical writer with over 5 years of exp
 * New feature spotlights 
 * Style guides 
 
-For more details about my experience, please head over to my [portfolio](/portfolio). If you need to contact me, send me an email at [abscho@gmail.com](mailto:abscho@gmail.com) or send me a message on [LinkedIn](https://linkedin.com/in/abscho). I am currently based out of Fairfax, Virginia. 
+For more details about my experience, please head over to my [portfolio](/portfolio). If you need to contact me, send me an email at [abscho@gmail.com](mailto:abscho@gmail.com) or send me a message on [LinkedIn](https://linkedin.com/in/abscho). 
 
-Ever since I was younger, I always loved to not only learn about new, cutting-edge ideas, but explaining and sharing my excitement with my friends. For a long time, this was how I celebrated my love for science and writing: discovering wondrous, sometimes fantastic concepts about the world around us, then translating it into simpler terms so others around me could see how amazing the world is, too. I always waited for the moment when I could see the pieces fall into place in their mind and a spark of understanding shine in their eyes. 
+Ever since I was younger, I always loved to not only learn about new ideas, but explaining and sharing my excitement with my friends. For a long time, this was how I celebrated my love for science and writing: discovering wondrous, sometimes fantastic concepts about the world around us, then rewriting it into simpler terms so others around me could see how amazing the world is, too. I always waited for the moment when I could see the pieces fall into place in their mind and a spark of understanding shine in their eyes. 
+
+To me, we should never have to be intimidated to discover new concepts. Just because a certain audience doesn't have all the background information doesn't mean they can't enjoy something or learn more about something that interests them. I enjoy being the translator to make these ideas accessible, whether it be vaulty scientific concepts or documentation for products that enhance our daily lives. 
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

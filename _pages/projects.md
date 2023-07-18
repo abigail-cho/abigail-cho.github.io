@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Portfolio
+permalink: /portfolio/
+description: A collection of my past professional and personal work. 
 nav: true
 nav_order: 2
 display_categories: [work, fun]
