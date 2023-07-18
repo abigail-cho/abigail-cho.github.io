@@ -784,7 +784,8 @@ html.transition *:after {
 
   .post-content {
     blockquote {
-      border-left: 5px solid var(--global-theme-color);
+      background: var(--global-blockquote-bg-color);
+      border: 2px solid var(--global-blockquote-bg-color);
       padding: 8px;
 
       p {
@@ -964,7 +965,8 @@ nav[data-toggle="toc"] {
 /* Tips, warnings, and dangers blockquotes */
 .post .post-content blockquote {
   &.block-tip {
-    border-color: var(--global-tip-block);
+    background: var(--global-blockquote-bg-color);
+    border: 2px solid var(--global-blockquote-bg-color);
     background-color: var(--global-tip-block-bg);
 
     p {
