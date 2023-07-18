@@ -59,7 +59,7 @@ img {
 
 blockquote {
   background: var(--global-bg-color);
-  border-left: 2px solid var(--global-blockquote-bg-color);
+  border-left: 2px solid var(--global-theme-color);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
 }
@@ -784,8 +784,7 @@ html.transition *:after {
 
   .post-content {
     blockquote {
-      background: var(--global-bg-color);
-      border-left: 2px solid var(--global-blockquote-bg-color);
+      border-left: 2px solid var(--global-theme-color);
       padding: 8px;
 
       p {
@@ -965,8 +964,6 @@ nav[data-toggle="toc"] {
 /* Tips, warnings, and dangers blockquotes */
 .post .post-content blockquote {
   &.block-tip {
-    background: var(--global-bg-color);
-    border-left: 2px solid var(--global-blockquote-bg-color);
     background-color: var(--global-tip-block-bg);
 
     p {

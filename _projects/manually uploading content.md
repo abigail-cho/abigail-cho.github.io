@@ -3,7 +3,7 @@ layout: page
 title: Manually uploading content
 description: How-to article
 img: 
-importance: 1
+importance: 3
 category: Professional
 related_publications: 
 ---
