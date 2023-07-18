@@ -68,6 +68,9 @@
         - Max Planck Medal
 
 - title: Skills and Technologies
-  type: list
+  type: map
   contents:
-    - Skills: Agile methodologies, 
+    - name: Skills 
+      value: Agile methodologies 
+    - name: Technologies 
+      value: Jira, Confluence, Git, Guru, Document360, InVision, Figma, Canva, Adobe Photoshop, Adobe Illustrator, Clari Copilot, Loom, Slack, Google Suite
