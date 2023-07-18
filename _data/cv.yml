@@ -1,32 +1,27 @@
-- title: General Information
+- title: Contact Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Abigail Cho
+    - name: Email
+      value: abscho@gmail.com
+    - name: Phone
+      value: (616) 302-3754
+    - name: Location
+      value: Fairfax, VA
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Master of Arts, Professional Writing
+      institution: Carnegie Mellon University
+      year: August 2020 - May 2021
+    - title: Bachelor of Science, Technical Writing and Communication
+      institution: Carnegie Mellon University
+      year: August 2014 - May 2018
+    - title: Minor, Physics 
+      institution: Carnegie Mellon University 
+      year: August 2014 - May 2018
 
 - title: Experience
   type: time_table
