@@ -5,8 +5,8 @@ permalink: /portfolio/
 description: A collection of my past professional and personal work. 
 nav: true
 nav_order: 2
-display_categories: [Professional] <!-- add Personal to brackets after you add a project for it --> 
-horizontal: false
+display_categories: [Professional, Personal] <!-- add Personal to brackets after you add a project for it --> 
+horizontal: true
 
 ---
 
