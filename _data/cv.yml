@@ -10,25 +10,12 @@
     - name: Location
       value: Fairfax, VA
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Master of Arts, Professional Writing
-      institution: Carnegie Mellon University
-      year: August 2020 - May 2021
-    - title: Bachelor of Science, Technical Writing and Communication
-      institution: Carnegie Mellon University
-      year: August 2014 - May 2018
-    - title: Minor, Physics 
-      institution: Carnegie Mellon University 
-      year: August 2014 - May 2018
-
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Technical Product Writer
+      department: GRIN
+      year: Jul. 2021 - Present
       description:
         - Description 1.
         - Description 2.
@@ -37,7 +24,7 @@
             - Sub-description 1.
             - Sub-description 2.
     - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
+      department: California Institute of Technology, Pasadena, California, US
       year: 1933
       description:
         - Description 1.
@@ -56,6 +43,19 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
+- title: Education
+  type: time_table
+  contents:
+    - title: Master of Arts, Professional Writing
+      institution: Carnegie Mellon University
+      year: Aug. 2020 - May 2021
+    - title: Bachelor of Science, Technical Writing and Communication
+      institution: Carnegie Mellon University
+      year: Aug. 2014 - May 2018
+    - title: Minor, Physics 
+      institution: Carnegie Mellon University 
+      year: Aug. 2014 - May 2018
+
 - title: Certifications
   type: time_table
   contents:
@@ -70,4 +70,4 @@
 - title: Skills and Technologies
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Skills: Agile methodologies, 
