@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Technical Writer
+subtitle: <p style="color:#3EB489">Technical Writer</p> 
 
 profile:
   align: right
