@@ -37,15 +37,24 @@
       department: Carnegie Mellon University, Dietrich College of Humanities
       year: August 2020 - May 2021 
       description:
-        - Description 1.
-        - Description 2.
+        - Educated students on fundamental writing concepts such as style, rhetorical practices, and user-oriented design
+        - Emphasized empathy with the audience and to explicitly state why their fields should matter to readers 
+        - Reviewed resumes, cover letters, personal statements, funding proposals, science communication, client reports, and instructional articles 
+        - Collaborated directly with students and professor in peer-review sessions and discussion 
+        - Held office hours and advised students one-on-one weekly
 
     - title: Junior Technical Writer
       department: Two Six Labs
       year: June 2018 - July 2020
       description: 
-        - Description 1
-        - Description 2
+        - Reviewed funding proposals submitted to the Department of Defense (DoD) and the Defense Advanced Research Projects Agency (DARPA) 
+        - Participated in daily standups and sprints with the development teams 
+        - Reviewed, published, and maintained user documentation for products for each feature update
+        - Compiled monthly technical reports and presentations submitted to internal and external stakeholders 
+        - Reviewed, edited, and published technical and scientific blog posts written by technical staff, including engineers and data analysts 
+        - Drafted, reviewed, and submitted two full final reports on completed contracts 
+        - Drafted and published Two Six Labs&#39; first company privacy policy 
+        - Designed and maintained company marketing collateral, including flyers, recruiting cards, and newsletters 
 
 - title: Education
   type: time_table
