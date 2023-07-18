@@ -16,7 +16,7 @@
     - title: Technical Product Writer
       department: GRIN
       year: July 2021 - Present
-      description:
+      description: Setting standards and values as GRIN&#39;s first technical writer
         - Drafted, revised, edited, and published all product-related documentation for 8 Product and Engineering pods, including in-app messaging, product announcements, release notes, UX writing, internal documentation, and customer documentation
         - Coordinated with cross-functional teams and stakeholders to deliver dcumentation, including Product Management, Product Marketing, Product Design, Engineering, Customer Education, Customer Success, and Technical Success Engineering
         - Interviewed subject-matter experts (SMEs) to translate their knowledge into documentation, including product managers, product designers, and engineers
@@ -34,19 +34,28 @@
             - Researching, defining, and leading customer interviews to test the knowledge base site&#39;s information architecture and uncover gaps in documentation
             
     - title: Teaching Assistant
-      department: Carnegie Mellon University, Dietrich College of Humanities
+      department: Carnegie Mellon University
       year: August 2020 - May 2021 
-      description:
-        - Description 1.
-        - Description 2.
+      description: Mentoring science students to communicate the value of their fields to lay audiences
+        - Educated students on fundamental writing concepts such as style, rhetorical practices, and user-oriented design 
+        - Reviewed resumes, cover letters, personal statements, funding proposals, science communication, client reports, and instructional articles 
+        - Collaborated directly with students and professor in peer-review sessions and discussion 
+        - Held office hours and advised students one-on-one weekly 
+        - Emphasized empathy with the audience and to explicitly state why their fields should matter to readers 
 
     - title: Junior Technical Writer
       department: Two Six Labs
       year: June 2018 - July 2020
-      description: 
-        - Description 1
-        - Description 2
-
+      description: Compiling reports and maintaining documentation for government defense projects.
+        - Reviewed funding proposals submitted to the Department of Defense (DoD) and the Defense Advanced Research Projects Agency (DARPA) 
+        - Participated in daily standups and sprints with the development teams 
+        - Reviewed, published, and maintained user documentation for products for each feature update
+        - Compiled monthly technical reports and presentations submitted to internal and external stakeholders 
+        - Reviewed, edited, and published technical and scientific blog posts written by technical staff, including engineers and data analysts 
+        - Drafted, reviewed, and submitted two full final reports on completed contracts 
+        - Drafted and published Two Six Labs&#39; first company privacy policy 
+        - Designed and maintained company marketing collateral, including flyers, recruiting cards, and newsletters 
+        
 - title: Education
   type: time_table
   contents:
@@ -60,6 +69,14 @@
       institution: Carnegie Mellon University 
       year: August 2014 - May 2018
 
+- title: Skills and Technologies
+  type: map
+  contents:
+    - name: Skills 
+      value: Agile methodologies, Markdown, CSS, HTML, Python, R, docs-as-code, project management, API documentation
+    - name: Technologies 
+      value: Jira, Confluence, Github, Guru, Document360, Sphinx, Intercom, Zendesk, InVision, Figma, Canva, Adobe Photoshop, Adobe Illustrator, Clari Copilot, Loom, Slack, Zoom, Google Suite
+
 - title: Certifications
   type: time_table
   contents:
@@ -69,11 +86,3 @@
     - year: April 2023
       title: Foundations of User Experience (UX) Design
       institution: <a href="https://www.coursera.org/account/accomplishments/verify/6V67NBM27VF9">Google</a>
-
-- title: Skills and Technologies
-  type: map
-  contents:
-    - name: Skills 
-      value: Agile methodologies, Markdown, CSS, HTML, Python, R, docs-as-code, project management, API documentation
-    - name: Technologies 
-      value: Jira, Confluence, Github, Guru, Document360, Sphinx, Intercom, Zendesk, InVision, Figma, Canva, Adobe Photoshop, Adobe Illustrator, Clari Copilot, Loom, Slack, Zoom, Google Suite
