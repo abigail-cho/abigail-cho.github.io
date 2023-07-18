@@ -537,7 +537,7 @@ footer.sticky-bottom {
 
   h3.category {
     color: var(--global-text-color);
-    border-bottom: 1px solid rgba(var(--global-text-color), 0.8); 
+    border-bottom: 1px solid var(--global-text-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
