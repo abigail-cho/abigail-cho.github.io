@@ -10,6 +10,8 @@ related_publications:
 
 A procedural article describing how creators can submit their social media content through their personal portal, the Live Site, to brands they are collaborating with. This article assumed these influencers had experience working with brands as well as some previous knowledge about the Live Site's features and functionality.
 
+I included this article because while the task by itself, which is to upload files to a site, may seem easy, there were many prerequisites and choices a creator needed to make to complete their task correctly. This presented a challenge when writing this article. 
+
 This article was available publicly on the company's documentation site, so none of the content has been redacted in the sample below. The current version can be found <a href="https://help.grin.co/docs/manually-uploading-content">here</a>.
 
 <hr>
@@ -37,12 +39,12 @@ If you’ve been assigned non-network tasks or you haven’t connected your soci
 ## How to do it
 
 1. Navigate to your **Live Site.**
-2. Select **View** <img src="images/manually-uploading-content-assets/view.png"></img> on the program you’re submitting content for.
-3. In the **Tasks** module, select **Deliver** <img src="images/manually-uploading-content-assets/deliver.png"></img>.
-4. Select **View** <img src="images/manually-uploading-content-assets/view.png"></img> on the task you’re submitting content for. 
+2. Select **View** on the program you’re submitting content for.
+3. In the **Tasks** module, select **Deliver**.
+4. Select **View** on the task you’re submitting content for. 
 5. Depending on the type of task you’re delivering for, provide the following: 
-   1. If you’re delivering for a **social network task**, such as an Instagram post or a TikTok video, then upload <img src="images/manually-uploading-content-assets/upload icon.png"></img> your **file copy**, enter your post’s **URL** and **date of post** (if applicable), and enter your post’s **metrics**.
-   2. If you’re delivering for a **non-network task**, upload <img src="images/manually-uploading-content-assets/upload icon.png"></img> your **file**, enter your **URL**, or paste in your **text**.
-6. Select **Deliver** <img src="images/manually-uploading-content-assets/deliver.png"></img>.
+   1. If you’re delivering for a **social network task**, such as an Instagram post or a TikTok video, then upload your **file copy**, enter your post’s **URL** and **date of post** (if applicable), and enter your post’s **metrics**.
+   2. If you’re delivering for a **non-network task**, upload your **file**, enter your **URL**, or paste in your **text**.
+6. Select **Deliver**.
 
 That’s it! Your content has been delivered. Your collaborating brand should receive a copy of your post, its URL, and its metrics. 
