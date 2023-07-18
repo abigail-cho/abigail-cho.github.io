@@ -16,7 +16,7 @@ This article was available publicly on the company's documentation site, so none
 
 <hr>
 
-# Manually Uploading Content
+# Manually uploading content
 
 If you’ve been assigned non-network tasks or you haven’t connected your social networks, you can complete tasks with collaborating brands by **manually uploading content** via your Live Site. When you manually upload, you have to provide a combination of a file copy of your content, a link, and the metrics associated with your content depending on the type of task you’re completing.
 
