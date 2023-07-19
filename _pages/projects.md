@@ -6,7 +6,7 @@ description: A collection of my past professional and personal work.
 nav: true
 nav_order: 2
 display_categories: [Professional, Personal] 
-horizontal: true
+horizontal: false
 
 ---
 
