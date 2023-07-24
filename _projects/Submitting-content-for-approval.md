@@ -31,7 +31,12 @@ Your brand sometimes may require you to get your content approved before posting
 2. Select **View** on the Activation you're submitting content for. This will open your proposal for the Activation. 
 3. In the **Tasks** module, select **Deliver.**
 
-<p align="center"><img src="images/submitting-content-for-approval-assets/task-modules-deliver.png" alt="Screenshot of the Tasks module with the Deliver button highlighted in red"/></p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+{% include figure.html path="assets/img/submitting-content-for-approval/task-modules-deliver.jpg" title="Image of the Deliver button on a proposal's Tasks module highlighted in red" %}
+    </div>
+</div>
+<div class="caption">The Deliver button on a proposal's Tasks module</div>
 
 4. Select **View** on the task you need to submit content for. Content that requires approval will be labeled. 
 
