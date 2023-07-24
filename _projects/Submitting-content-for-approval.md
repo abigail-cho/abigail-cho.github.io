@@ -31,13 +31,8 @@ Your brand sometimes may require you to get your content approved before posting
 2. Select **View** on the Activation you're submitting content for. This will open your proposal for the Activation. 
 3. In the **Tasks** module, select **Deliver.**
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-{% include figure.html path="assets/img/submitting-content-for-approval/task-modules-deliver.png" title="Image of the Deliver button on a proposal's Tasks module highlighted in red" class="img-fluid z-depth-1" style="max-width: none;" %}
-    </div>
-</div>
-{% include figure.html path="assets/img/submitting-content-for-approval/task-modules-deliver.png" title="Image of the Deliver button on a proposal's Tasks module highlighted in red" class="z-depth-1" style="max-width: none;" %}
-<div class="caption">The Deliver button on a proposal's Tasks module</div>
+<p align="center"><img src="/assets/img/submitting-content-for-approval/task-modules-deliver.png" alt="Screenshot of a proposal's Tasks module with the Deliver button highlighted in red" style="box-shadow: 0 0 15px; padding-top: 10px; padding-bottom: 10px;"/></p>
+<div class="caption">A task that requires content approval</div>
 
 <ol start="4">
     <li>Select <b>View</b> on the task you need to submit content for. Content that requires approval will be labeled. </li>
@@ -57,7 +52,8 @@ Your brand sometimes may require you to get your content approved before posting
 > Once your brand has reviewed your content, you'll get an email notification at the address you provded in your Live Site's **Settings.** Be sure to have your preferred email set! For more information on updating your settings, see our help article [Managing Settings](https://help.grin.co/docs/managing-settings).
 >
 > You can always return to the deliverables page to view your approval status, view your submission history by pressing **View History**, and view your most recent submission. Once your brand reviews your content, you'll see a new status, either **Needs Changes** or **Approved,** on your submission. 
-> <p align="center"><img src="images/submitting-content-for-approval-assets/submission-in-review.png" alt="Screenshot of the submission history for an Instagram task and the most recently uploaded image and caption."/></p>
+> <p align="center"><img src="/assets/img/submitting-content-for-approval/submission-in-review.png" alt="Screenshot of the submission history for an Instagram task and the most recently uploaded image and caption." style="box-shadow: 0 0 15px; padding-top: 10px; padding-bottom: 10px;"/></p>
+> <div class="caption">Submission history of past content for approval</div>
 
 <ol start="8"><li>After your brand has reviewed your content, return to your task using <b>Steps 2-5</b> and view your submission. Depending on its status, you'll need to do different things:</li>
   <ol type="a"><li>If it's marked <b>Needs Changes</b>, revise your content according to your brand's feedback, then press <b>Edit Upload</b> and repeat <b>Steps 6-7.</b></li>
