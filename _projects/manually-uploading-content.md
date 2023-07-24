@@ -38,6 +38,18 @@ If you’ve been assigned non-network tasks or you haven’t connected your soci
 
 ## How to do it
 
+<ol>
+    <li>Navigate to your <b>Live Site.</b></li>
+    <li>Select <b>View</b> on the program you're submitting content for.</li>
+    <li>In the <b>Tasks</b> module, select <b>Deliver.</b></li>
+    <li>Depending on the type of task you're delivering for, provide the following:
+    <ol type="a">
+        <li>If you're delivering for a <b>social network task,</b> such as an Instagram post or a TikTok video, then upload your <b>file copy,</b> enter your post's <b>URL</b> and <b>date of post</b> (if applicable), and enter your post's <b>metrics.</b></li>
+        <li>If you're delivering for a <b>non-network task,</b> upload your <b>file,</b> enter your <b>URL,</b> or paste in your <b>text.</b></li>
+        </ol></li>
+    <li>Select <b>Deliver.</b></li>
+</ol>
+
 1. Navigate to your **Live Site.**
 2. Select **View** on the program you’re submitting content for.
 3. In the **Tasks** module, select **Deliver**.
