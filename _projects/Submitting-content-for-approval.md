@@ -43,7 +43,7 @@ Your brand sometimes may require you to get your content approved before posting
     <li>Select <b>View</b> on the task you need to submit content for. Content that requires approval will be labeled. </li>
 </ol>
 
-<p align="center"><img src="assets/img/submitting-content-for-approval/view-task.png" alt="Screenshot of an assigned task to deliver an Instagram post. It has a warning that says approval is required for the task. The View button is highlighted in red." style="max-width: none;"/></p>
+<p align="center"><img src="/assets/img/submitting-content-for-approval/view-task.png" alt="Screenshot of an assigned task to deliver an Instagram post. It has a warning that says approval is required for the task. The View button is highlighted in red." style="max-width: none;"/></p>
 
 <ol start="5">
     <li>If the task has two or more deliverables, <b>select</b> which deliverable you're submitting content for approval. Otherwise, skip to <b>Step 6.</b></li>
