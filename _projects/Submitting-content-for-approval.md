@@ -33,7 +33,7 @@ Your brand sometimes may require you to get your content approved before posting
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-{% include figure.html path="assets/img/submitting-content-for-approval/task-modules-deliver.png" title="Image of the Deliver button on a proposal's Tasks module highlighted in red" class="img-fluid z-depth-1" style="max-width: 100%; height: auto;" %}
+{% include figure.html path="assets/img/submitting-content-for-approval/task-modules-deliver.png" title="Image of the Deliver button on a proposal's Tasks module highlighted in red" class="img-fluid z-depth-1" style="max-width: none;" %}
     </div>
 </div>
 <div class="caption">The Deliver button on a proposal's Tasks module</div>
