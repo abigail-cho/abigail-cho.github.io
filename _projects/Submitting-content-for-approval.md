@@ -44,6 +44,7 @@ Your brand sometimes may require you to get your content approved before posting
 </ol>
 
 <p align="center"><img src="/assets/img/submitting-content-for-approval/view-task.png" alt="Screenshot of an assigned task to deliver an Instagram post. It has a warning that says approval is required for the task. The View button is highlighted in red." style="box-shadow: 0 0 15px; padding-top: 10px; padding-bottom: 10px;"/></p>
+<div class="caption">A task that requires content approval</div>
 
 <ol start="5">
     <li>If the task has two or more deliverables, <b>select</b> which deliverable you're submitting content for approval. Otherwise, skip to <b>Step 6.</b></li>
