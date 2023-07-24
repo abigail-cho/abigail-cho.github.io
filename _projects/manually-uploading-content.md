@@ -50,13 +50,4 @@ If you’ve been assigned non-network tasks or you haven’t connected your soci
     <li>Select <b>Deliver.</b></li>
 </ol>
 
-1. Navigate to your **Live Site.**
-2. Select **View** on the program you’re submitting content for.
-3. In the **Tasks** module, select **Deliver**.
-4. Select **View** on the task you’re submitting content for. 
-5. Depending on the type of task you’re delivering for, provide the following: 
-   1. If you’re delivering for a **social network task**, such as an Instagram post or a TikTok video, then upload your **file copy**, enter your post’s **URL** and **date of post** (if applicable), and enter your post’s **metrics**.
-   2. If you’re delivering for a **non-network task**, upload your **file**, enter your **URL**, or paste in your **text**.
-6. Select **Deliver**.
-
 That’s it! Your content has been delivered. Your collaborating brand should receive a copy of your post, its URL, and its metrics. 
