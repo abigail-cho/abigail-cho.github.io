@@ -33,12 +33,14 @@ Your brand sometimes may require you to get your content approved before posting
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-{% include figure.html path="assets/img/submitting-content-for-approval/task-modules-deliver.png" title="Image of the Deliver button on a proposal's Tasks module highlighted in red" class="img-fluid z-depth-1" %}
+{% include figure.html path="assets/img/submitting-content-for-approval/task-modules-deliver.png" title="Image of the Deliver button on a proposal's Tasks module highlighted in red" class="img-fluid z-depth-1" style="max-width: 100%; height: auto;" %}
     </div>
 </div>
 <div class="caption">The Deliver button on a proposal's Tasks module</div>
 
-4. Select **View** on the task you need to submit content for. Content that requires approval will be labeled. 
+<ol start="4">
+    <li>Select **View** on the task you need to submit content for. Content that requires approval will be labeled. </li>
+</ol>
 
 <p align="center"><img src="images/submitting-content-for-approval-assets/view-task.png" alt="Screenshot of an assigned task to deliver an Instagram post. It has a warning that says approval is required for the task. The View button is highlighted in red."/></p>
 
