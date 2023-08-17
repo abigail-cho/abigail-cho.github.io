@@ -13,7 +13,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Technical Product Writer
+    - title: Senior Technical Product Writer
       department: GRIN
       year: July 2021 - Present
       description:
@@ -25,10 +25,10 @@
         - Interviewed customers in product discovery and Product Advisory Group calls to learn about customers&#39; workflows, frustrations, and needs to perform their jobs
         - title: Planned, executed, and delivered multiple technical writing projects, including&#58;
           contents:
-            - Migrating 300&#43; user-facing articles from an old knowledge base host to another
+            - Migrating 300&#43; user-facing articles from Zendesk host to Document360
             - Establishing and maintaining GRIN&#39;s first Technical Writing Style Guide 
             - Defining and maintaining technical writing domains, processes, and responsibilities at GRIN 
-            - Auditing, assessing, and reporting on GRIN&#39;s internal technical documentation written by Engineering, Cybersecurity, Product Management, and Customer Success Engineering
+            - Auditing, assessing, and reporting on GRIN&#39;s internal technical documentation in Confluence written by Engineering, Cybersecurity, Product Management, and Customer Success Engineering
             - Auditing Support tickets to identify common documentation dropoff points and remedying these pitfalls 
             - Researching, implementing, and leveraging Google Analytics to track reader patterns and inform documentation priorities
             - Researching, defining, and leading customer interviews to test the knowledge base site&#39;s information architecture and uncover gaps in documentation

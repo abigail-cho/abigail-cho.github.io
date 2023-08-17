@@ -12,7 +12,7 @@ A procedural article describing how creators can submit their social media conte
 
 I included this article because while the task by itself, which is to upload files to a site, may seem easy, there were many prerequisites and choices a creator needed to make to complete their task correctly. This presented a challenge when writing this article. 
 
-This article was available publicly on the company's documentation site, so none of the content has been redacted in the sample below. The current version can be found <a href="https://help.grin.co/docs/manually-uploading-content">here</a>.
+This article was available publicly on the company's documentation site, so none of the content has been redacted in the sample below. The current version can be found <a href="https://help.grin.co/docs/manually-uploading-content">here</a>. You can download a PDF version <a href="/assets/pdf/Manually%20Uploading%20Content.pdf" target="_blank">here</a>.
 
 <hr>
 

@@ -13,7 +13,7 @@ I included this article because this task had two challenges:
 1. Influencers needed to leave the process and come back later to check if their collaborating brand approved their content. There was an interim UI that displayed the influencer's submission history that had useful information, but it did not fit naturally into the approval procedure as a step. I needed to decide how to showcase this information.
 2. Influencers may need to repeat this process several times until the brand approves their content. I needed to make this clear to audiences.
 
-This article was available publicly on the company's documentation site, so none of the content has been redacted in the sample below. The current version can be found <a href="https://help.grin.co/v1/docs/submitting-content-for-approval">here</a>.
+This article was available publicly on the company's documentation site, so none of the content has been redacted in the sample below. The current version can be found <a href="https://help.grin.co/v1/docs/submitting-content-for-approval">here</a>. You can download a PDF version <a href="/assets/pdf/Submitting%20content%20for%20approval.pdf" target="_blank">here</a>.
 
 <hr> 
 

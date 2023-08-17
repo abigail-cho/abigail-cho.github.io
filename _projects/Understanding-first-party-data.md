@@ -12,7 +12,7 @@ A conceptual article explaining what first-party data is and how it was used to 
 
 This article was challenging because, while it was important to the business to have information about first-party data readily available, it is an intimidating concept for most readers. Many users value their data privacy and often want to know how their data is being used. In this case, not only did I need to explain what it meant to share first-party data, but I needed to encourage influencers to do so, as they needed to connect their social network accounts for their collaborating brands to see their engagement rates and other profile statistics. 
 
-This article was available publicly on the company's documentation site, so none of the content has been redacted in the sample below. The current version can be found <a href="https://help.grin.co/docs/understanding-first-party-data">here</a>.
+This article was available publicly on the company's documentation site, so none of the content has been redacted in the sample below. The current version can be found <a href="https://help.grin.co/docs/understanding-first-party-data">here</a>. You can download a PDF version <a href="/assets/pdf/Understanding%20First%20Party%20Data.pdf" target="_blank">here</a>.
 
 <hr>
 
