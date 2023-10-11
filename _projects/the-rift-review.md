@@ -2,7 +2,7 @@
 layout: page
 title: The Rift Review
 description: Newsletter design
-img: /assets/img/the-rift-review/Cho%20Newsletter%20Design%20Sample_Page_1.jpg
+img: 
 importance: 3
 category: Personal
 related_publications: 
