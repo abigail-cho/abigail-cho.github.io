@@ -3,7 +3,7 @@ layout: page
 title: Authenticating API calls
 description: API sample
 img: 
-importance: 2
+importance: 4
 category: Professional
 ---
 
@@ -12,7 +12,7 @@ A user guide for authenticating calls made to one of my past company's API. I in
 1. The API key could only be generated from a user account from the company's platform, which developers typically would not have. So, I included instructions on how to get this key, but also included links to customer documentation for general users to reference.
 2. The authentication method for the API this article documented, the v2 API, was different from v1. However, it was possible at the time that users would still use both APIs at once. Therefore, I had to include the recommended method for authenticating requests in both cases.
 
-This article has been edited to remove proprietary or recognizable information. 
+This article has been edited to remove proprietary or recognizable information. You can download a PDF version [here](/assets/pdf/Authentication-portfolio-edit.pdf).
 
 <hr>
 
