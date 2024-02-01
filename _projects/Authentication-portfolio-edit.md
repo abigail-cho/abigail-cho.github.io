@@ -1,3 +1,21 @@
+---
+layout: page
+title: Submitting content for approval
+description: How-to article
+img: 
+importance: 2
+category: Professional
+---
+
+A user guide for authenticating calls made to one of my past company's API. I included this sample in particular because of a few nuances: 
+
+1. The API key could only be generated from a user account from the company's platform, which developers typically would not have. So, I included instructions on how to get this key, but also included links to customer documentation for general users to reference.
+2. The authentication method for the API this article documented, the v2 API, was different from v1. However, it was possible at the time that users would still use both APIs at once. Therefore, I had to include the recommended method for authenticating requests in both cases.
+
+This article has been edited to remove proprietary or recognizable information. 
+
+<hr>
+
 # Authentication
 
 Acme uses API keys to authenticate requests. To use the Acme v2 API, you **must** authenticate every request you make. Requests without authentication will fail.
@@ -23,14 +41,9 @@ You can authenticate using your API key as the token with `--header 'X-API-key: 
 
 For example, to authorize a request to get a list of conversions: 
 
-<!--
-title: "Authorization example"
-lineNumbers: true
--->
-
-```json
+```
 curl --request GET \
-  --url https://app.acme.co/v2/conversions/ \
+  --url https://app.acme.co/v2/ipsum/ \
   --header 'X-API-key: <YOUR_API_TOKEN>' \
   --header 'Accept: application/json'
 ```
@@ -41,14 +54,9 @@ Authenticating requests with Acme's [v1 API](https://acme.sample.co/docs/v1/) (`
 
 If you are using both APIs, then we recommend using both authorization headers in your requests to either domain. 
 
-<!--
-title: "Both authorizations example"
-lineNumbers: true
--->
-
-```json
+```
 curl --request GET \
-  --url https://app.acme.co/v2/conversions/ \
+  --url https://app.acme.co/v2/ipsum/ \
   --header 'X-API-key: <YOUR_API_TOKEN>' \
   --header 'Authorization: Bearer <YOUR_API_TOKEN>' \
   --header 'Accept: application/json'
