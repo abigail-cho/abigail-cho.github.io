@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submitting content for approval
+title: Authenticating API calls
 description: How-to article
 img: 
 importance: 2
