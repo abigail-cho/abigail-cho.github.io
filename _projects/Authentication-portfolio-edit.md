@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Authenticating API calls
-description: How-to article
+description: API sample
 img: 
 importance: 2
 category: Professional
