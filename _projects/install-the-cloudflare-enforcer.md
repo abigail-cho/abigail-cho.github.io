@@ -149,43 +149,43 @@ export default {
 <summary>ES Module Syntax: JavaScript</summary>
 
 ```JavaScript
-    import {
-        HumanSecurityEnforcer
-    } from "@humansecurity/cloudflare-enforcer";
+import {
+    HumanSecurityEnforcer
+} from "@humansecurity/cloudflare-enforcer";
 
-    const config = {
-        px_app_id: '<APP_ID>',
-        px_auth_token: '<AUTH_TOKEN>',
-        px_cookie_secret: '<COOKIE_SECRET>',
-        // ...
-    };
+const config = {
+    px_app_id: '<APP_ID>',
+    px_auth_token: '<AUTH_TOKEN>',
+    px_cookie_secret: '<COOKIE_SECRET>',
+    // ...
+};
 
-    export default {
-        async fetch(request, env, ctx) {
-            // create a new enforcer
-            const enforcer = await HumanSecurityEnforcer.initialize(config, env);
+export default {
+    async fetch(request, env, ctx) {
+        // create a new enforcer
+        const enforcer = await HumanSecurityEnforcer.initialize(config, env);
 
-            // call enforce
-            const retVal = await enforcer.enforce(ctx, request);
+        // call enforce
+        const retVal = await enforcer.enforce(ctx, request);
 
-            // if enforce returned a response, return that response
-            if (retVal instanceof Response) {
-                return retVal;
-            }
+        // if enforce returned a response, return that response
+        if (retVal instanceof Response) {
+            return retVal;
+        }
 
-            // retrieve the resource from the cache or origin server
-            // make sure to use the value returned from enforce
-            const response = await fetch(retVal);
+        // retrieve the resource from the cache or origin server
+        // make sure to use the value returned from enforce
+        const response = await fetch(retVal);
 
-            // call postEnforce and return the resulting response
-            return await enforcer.postEnforce(ctx, response);
-        },
-    };
+        // call postEnforce and return the resulting response
+        return await enforcer.postEnforce(ctx, response);
+    },
+};
 ```
 
 </details>
 
-<details>
+<!-- <details>
 
 <summary>ES Module Syntax: TypeScript</summary>
 
@@ -319,7 +319,7 @@ export default {
     });
 ```
 
-</details>
+</details> -->
 
 <ol start="7">
 <li>Update the `px_app_id`, `px_auth_token`, and `px_cookie_secret` fields with your **Application ID, Server Token,** and **Risk Cookie Key** respectively.</li>
