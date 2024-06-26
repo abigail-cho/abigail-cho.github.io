@@ -58,8 +58,9 @@ using create-cloudflare version 2.21.1
 ╰ In which directory do you want to create your application? also used as application name
   ./HUMAN-cloudflare-enforcer
 ```
-
-3. When prompted, select the `"Hello World" Worker` option and hit `return` to proceed.
+<ol start="3">
+<li> When prompted, select the `"Hello World" Worker` option and hit `return` to proceed.</li>
+</ol>
 
 ```sh
 │ dir ./cloudflare-enforcer
@@ -75,8 +76,9 @@ using create-cloudflare version 2.21.1
   ○ API starter (OpenAPI compliant)
   ○ Worker built from a template hosted in a git repository
 ```
-
-4. Select whether to install the Worker using TypeScript. By default, the Worker will install in JavaScript.
+<ol start="4">
+<li> Select whether to install the Worker using TypeScript. By default, the Worker will install in JavaScript.</li>
+</ol>
 
 > **Note**
 >
@@ -89,7 +91,9 @@ using create-cloudflare version 2.21.1
   Yes / No
 ```
 
-5. When prompted, select `No` to deploying your application.
+<ol start="5">
+<li>When prompted, select `No` to deploying your application.</li>
+</ol>
 
 ```sh
 ╭ Deploy with Cloudflare Step 3 of 3
@@ -111,7 +115,9 @@ Afterwards, you should receive a success message that reads `APPLICATION CREATED
 > 
 > You can check the file type you have by entering `ls` while inside the `src` folder. This will show you your `index` file's type.
 
-5. Delete all the code currently in the `index` file. The following snippet shows all the default code you should delete.
+<ol start="5">
+<li>Delete all the code currently in the `index` file. The following snippet shows all the default code you should delete.</li>
+</ol>
 
 ```sh
 /**
@@ -130,13 +136,18 @@ export default {
 };
 ```
 
-6. Copy the appropriate code snippet, either TypeScript or JavaScript, from below and paste it into your `index` file.
+<ol start="6">
+<li>Copy the appropriate code snippet, either TypeScript or JavaScript, from below and paste it into your `index` file.</li>
+</ol>
 
 > **Note**
 >
 > In addition to choosing between TypeScript and JavaScript, you must also make sure to pick the right type of Worker. This can either be an ES Module or Service Module, and it depends on your Cloudflare configuration. You can see some examples from both Workers in [Cloudflare's documentation.](https://developers.cloudflare.com/workers/reference/migrate-to-module-workers/)
+
 <details>
+
 <summary>ES Module Syntax: JavaScript</summary>
+
 ```javascript
 import {
     HumanSecurityEnforcer
@@ -172,8 +183,11 @@ export default {
 };
 ```
 </details>
+
 <details>
+
 <summary>ES Module Syntax: TypeScript</summary>
+
 ```typescript
 import {
     HumanSecurityEnforcer,
@@ -215,8 +229,11 @@ export default {
 };
 ```
 </details>
+
 <details>
+
 <summary>Service Worker Syntax: JavaScript</summary>
+
 ```javascript
 import {
     HumanSecurityEnforcer
@@ -256,8 +273,11 @@ addEventListener('fetch', (event) => {
 });
 ```
 </details>
+
 <details>
+
 <summary>>Service Worker Syntax: TypeScript</summary>
+
 ```typescript
 import {
     HumanSecurityEnforcer,
@@ -297,11 +317,14 @@ addEventListener('fetch', (event) => {
 ```
 </details>
 
-7. Update the `px_app_id`, `px_auth_token`, and `px_cookie_secret` fields with your **Application ID, Server Token,** and **Risk Cookie Key** respectively.
+<ol start="7">
+<li>Update the `px_app_id`, `px_auth_token`, and `px_cookie_secret` fields with your **Application ID, Server Token,** and **Risk Cookie Key** respectively.</li>
+</ol>
 
 > **Note**
 >
 > These are the **minimum** required fields that **must be completed** in order for the Enforcer to work. You can always return to this file to customize your Enforcer later with our [optional configurations.](https://edocs.humansecurity.com/docs/configuration-cloudflare)
+
 ```sh
 // define an enforcer configuration however you see fit
 const config = {
@@ -311,11 +334,12 @@ const config = {
     // ...
 };
 ```
-
-8. Hit `ESC` to leave editing mode, then enter `:x` to save and close the file.
-9. Enter `npx wrangler deploy` to deploy your Worker. You may be prompted to log in to your Cloudflare account.
-10. Navigate to your Cloudflare dashboard and open **Workers & Pages.** Your new Worker with the HUMAN Enforcer should appear with the same name you gave it in **Create the Cloudflare Worker, Step 2.**
-11. Select the Worker, then select **Settings > Triggers > Add route** under **Routes** to add the URL or URL patterns for the Enforcer to monitor.
+<ol start="8">
+<li>Hit `ESC` to leave editing mode, then enter `:x` to save and close the file.</li>
+<li>Enter `npx wrangler deploy` to deploy your Worker. You may be prompted to log in to your Cloudflare account.</li>
+<li>Navigate to your Cloudflare dashboard and open **Workers & Pages.** Your new Worker with the HUMAN Enforcer should appear with the same name you gave it in **Create the Cloudflare Worker, Step 2.**</li>
+<li>Select the Worker, then select **Settings > Triggers > Add route** under **Routes** to add the URL or URL patterns for the Enforcer to monitor.</li>
+</ol>
 
 Your Cloudflare Enforcer has been successfully installed with the minimum requirements to monitor activity on your Cloudflare CDN. You can further customize the Enforcer’s behavior by referencing our [configuration options.](https://edocs.humansecurity.com/docs/configuration-cloudflare)
 
