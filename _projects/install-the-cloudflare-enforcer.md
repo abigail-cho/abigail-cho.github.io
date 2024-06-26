@@ -149,38 +149,38 @@ export default {
 <summary>ES Module Syntax: JavaScript</summary>
 
 ```javascript
-import {
-    HumanSecurityEnforcer
-} from "@humansecurity/cloudflare-enforcer";
+    import {
+        HumanSecurityEnforcer
+    } from "@humansecurity/cloudflare-enforcer";
 
-const config = {
-    px_app_id: '<APP_ID>',
-    px_auth_token: '<AUTH_TOKEN>',
-    px_cookie_secret: '<COOKIE_SECRET>',
-    // ...
-};
+    const config = {
+        px_app_id: '<APP_ID>',
+        px_auth_token: '<AUTH_TOKEN>',
+        px_cookie_secret: '<COOKIE_SECRET>',
+        // ...
+    };
 
-export default {
-    async fetch(request, env, ctx) {
-        // create a new enforcer
-        const enforcer = await HumanSecurityEnforcer.initialize(config, env);
+    export default {
+        async fetch(request, env, ctx) {
+            // create a new enforcer
+            const enforcer = await HumanSecurityEnforcer.initialize(config, env);
 
-        // call enforce
-        const retVal = await enforcer.enforce(ctx, request);
+            // call enforce
+            const retVal = await enforcer.enforce(ctx, request);
 
-        // if enforce returned a response, return that response
-        if (retVal instanceof Response) {
-            return retVal;
-        }
+            // if enforce returned a response, return that response
+            if (retVal instanceof Response) {
+                return retVal;
+            }
 
-        // retrieve the resource from the cache or origin server
-        // make sure to use the value returned from enforce
-        const response = await fetch(retVal);
+            // retrieve the resource from the cache or origin server
+            // make sure to use the value returned from enforce
+            const response = await fetch(retVal);
 
-        // call postEnforce and return the resulting response
-        return await enforcer.postEnforce(ctx, response);
-    },
-};
+            // call postEnforce and return the resulting response
+            return await enforcer.postEnforce(ctx, response);
+        },
+    };
 ```
 </details>
 
@@ -189,30 +189,71 @@ export default {
 <summary>ES Module Syntax: TypeScript</summary>
 
 ```typescript
-import {
-    HumanSecurityEnforcer,
-    HumanSecurityConfiguration
-} from '@humansecurity/cloudflare-enforcer';
+    import {
+        HumanSecurityEnforcer,
+        HumanSecurityConfiguration
+    } from '@humansecurity/cloudflare-enforcer';
 
-const config: HumanSecurityConfiguration = {
-    px_app_id: '<APP_ID>',
-    px_auth_token: '<AUTH_TOKEN>',
-    px_cookie_secret: '<COOKIE_SECRET>',
-    // ...
-};
+    const config: HumanSecurityConfiguration = {
+        px_app_id: '<APP_ID>',
+        px_auth_token: '<AUTH_TOKEN>',
+        px_cookie_secret: '<COOKIE_SECRET>',
+        // ...
+    };
 
-interface Env {
-    // If using Human Security features that require the PXKV Namespace
-    PXKV: KVNamespace;
-}
+    interface Env {
+        // If using Human Security features that require the PXKV Namespace
+        PXKV: KVNamespace;
+    }
 
-export default {
-    async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise < Response > {
-        // create a new enforcer
-        const enforcer = await HumanSecurityEnforcer.initialize(config, env);
+    export default {
+        async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise < Response > {
+            // create a new enforcer
+            const enforcer = await HumanSecurityEnforcer.initialize(config, env);
+
+            // call enforce
+            const retVal = await enforcer.enforce(ctx, request);
+
+            // if enforce returned a response, return that response
+            if (retVal instanceof Response) {
+                return retVal;
+            }
+
+            // retrieve the resource from the cache or origin server
+            // make sure to use the value returned from enforce
+            const response = await fetch(retVal);
+
+            // call postEnforce and return the resulting response
+            return await enforcer.postEnforce(ctx, response);
+        },
+    };
+```
+</details>
+
+<details>
+
+<summary>Service Worker Syntax: JavaScript</summary>
+
+```javascript
+    import {
+        HumanSecurityEnforcer
+    } from '@humansecurity/cloudflare-enforcer';
+
+    // define an enforcer configuration however you see fit
+    const config = {
+        px_app_id: '<APP_ID>',
+        px_auth_token: '<AUTH_TOKEN>',
+        px_cookie_secret: '<COOKIE_SECRET>',
+        // ...
+    };
+
+    async function handleEvent(event) {
+        // provide the enforcer configuration as an argument and await the returned Promise
+        // to receive an instance of the HumanSecurityEnforcer
+        const enforcer = await HumanSecurityEnforcer.initialize(config);
 
         // call enforce
-        const retVal = await enforcer.enforce(ctx, request);
+        const retVal = await enforcer.enforce(event);
 
         // if enforce returned a response, return that response
         if (retVal instanceof Response) {
@@ -224,53 +265,12 @@ export default {
         const response = await fetch(retVal);
 
         // call postEnforce and return the resulting response
-        return await enforcer.postEnforce(ctx, response);
-    },
-};
-```
-</details>
-
-<details>
-
-<summary>Service Worker Syntax: JavaScript</summary>
-
-```javascript
-import {
-    HumanSecurityEnforcer
-} from '@humansecurity/cloudflare-enforcer';
-
-// define an enforcer configuration however you see fit
-const config = {
-    px_app_id: '<APP_ID>',
-    px_auth_token: '<AUTH_TOKEN>',
-    px_cookie_secret: '<COOKIE_SECRET>',
-    // ...
-};
-
-async function handleEvent(event) {
-    // provide the enforcer configuration as an argument and await the returned Promise
-    // to receive an instance of the HumanSecurityEnforcer
-    const enforcer = await HumanSecurityEnforcer.initialize(config);
-
-    // call enforce
-    const retVal = await enforcer.enforce(event);
-
-    // if enforce returned a response, return that response
-    if (retVal instanceof Response) {
-        return retVal;
+        return await enforcer.postEnforce(event, response);
     }
 
-    // retrieve the resource from the cache or origin server
-    // make sure to use the value returned from enforce
-    const response = await fetch(retVal);
-
-    // call postEnforce and return the resulting response
-    return await enforcer.postEnforce(event, response);
-}
-
-addEventListener('fetch', (event) => {
-    event.respondWith(handleEvent(event));
-});
+    addEventListener('fetch', (event) => {
+        event.respondWith(handleEvent(event));
+    });
 ```
 </details>
 
@@ -279,41 +279,41 @@ addEventListener('fetch', (event) => {
 <summary>>Service Worker Syntax: TypeScript</summary>
 
 ```typescript
-import {
-    HumanSecurityEnforcer,
-    HumanSecurityConfiguration
-} from "@humansecurity/cloudflare-enforcer";
+    import {
+        HumanSecurityEnforcer,
+        HumanSecurityConfiguration
+    } from "@humansecurity/cloudflare-enforcer";
 
-const config: HumanSecurityConfiguration = {
-    px_app_id: '<APP_ID>',
-    px_auth_token: '<AUTH_TOKEN>',
-    px_cookie_secret: '<COOKIE_SECRET>',
-    // ...
-};
+    const config: HumanSecurityConfiguration = {
+        px_app_id: '<APP_ID>',
+        px_auth_token: '<AUTH_TOKEN>',
+        px_cookie_secret: '<COOKIE_SECRET>',
+        // ...
+    };
 
-async function handleEvent(event: FetchEvent): Promise < Response > {
-    // create a new enforcer
-    const enforcer = await HumanSecurityEnforcer.initialize(config);
+    async function handleEvent(event: FetchEvent): Promise < Response > {
+        // create a new enforcer
+        const enforcer = await HumanSecurityEnforcer.initialize(config);
 
-    // call enforce
-    const retVal = await enforcer.enforce(event);
+        // call enforce
+        const retVal = await enforcer.enforce(event);
 
-    // if enforce returned a response, return that response
-    if (retVal instanceof Response) {
-        return retVal;
+        // if enforce returned a response, return that response
+        if (retVal instanceof Response) {
+            return retVal;
+        }
+
+        // retrieve the resource from the cache or origin server
+        // make sure to use the value returned from enforce
+        const response = await fetch(retVal);
+
+        // call postEnforce and return the resulting response
+        return await enforcer.postEnforce(event, response);
     }
 
-    // retrieve the resource from the cache or origin server
-    // make sure to use the value returned from enforce
-    const response = await fetch(retVal);
-
-    // call postEnforce and return the resulting response
-    return await enforcer.postEnforce(event, response);
-}
-
-addEventListener('fetch', (event) => {
-    event.respondWith(handleEvent(event));
-});
+    addEventListener('fetch', (event) => {
+        event.respondWith(handleEvent(event));
+    });
 ```
 </details>
 
