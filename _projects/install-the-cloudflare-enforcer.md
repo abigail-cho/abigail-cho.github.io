@@ -39,8 +39,8 @@ You can learn how to install the Cloudflare Enforcer with this article.
 
 There are two parts to the Cloudflare Enforcer installation:
 
-1. [Create the Cloudflare worker](install-the-cloudflare-enforcer.md#create-the-cloudflare-worker)
-2. [Install the HUMAN Enforcer](install-the-cloudflare-enforcer.md#install-the-human-enforcer)
+1. [Create the Cloudflare worker](#create-the-cloudflare-worker)
+2. [Install the HUMAN Enforcer](#install-the-human-enforcer)
 
 The majority of the installation process is done through a CLI.
 
