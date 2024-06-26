@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Senior Technical Writer
+subtitle: Technical Writer
 
 profile:
   align: right
@@ -19,18 +19,21 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome to my portfolio! I'm an expert technical writer with over 5 years of experience in government, cybersecurity, information technology, and tech industries. I have written a variety of content to communicate product functionality, news, and internal processes to end users and internal stakeholders, including: 
 
-* How-to guides 
+* Product documentation
+* Developer documentation
 * API documentation 
 * Proposals 
 * Release notes 
 * New feature spotlights 
 * Style guides 
 
-For more details about my experience, please head over to my [portfolio](/portfolio). If you need to contact me, send me an email at [abscho@gmail.com](mailto:abscho@gmail.com) or send me a message on [LinkedIn](https://linkedin.com/in/abscho). I am currently based out of **Fairfax, VA.**
+For more details about my experience, please head over to my [portfolio](/portfolio). If you need to contact me, send me an email at [abscho@gmail.com](mailto:abscho@gmail.com) or send me a message on [LinkedIn](https://linkedin.com/in/abscho). I am currently based out of **Germantown, MD.**
 
-Ever since I was younger, I always loved to not only learn about new ideas, but explaining and sharing my excitement with my friends. For a long time, this was how I celebrated my love for science and writing: discovering wondrous, sometimes fantastic concepts about the world around us, then rewriting it into simpler terms so others around me could see how amazing the world is, too. I always waited for the moment when I could see the pieces fall into place in their mind and a spark of understanding shine in their eyes. 
+Like many in this industry, **I stumbled upon technical writing by accident.** Since I was young, I always enjoyed learning about challenging subjects such as science and mathematics—and I loved sharing those discoveries with my friends and family even more. I found joy in seeing that spark of understanding and excitement in their eyes when it “clicked”. 
 
-To me, we should never have to be intimidated to discover new concepts. Just because a certain audience doesn't have all the background information doesn't mean they can't enjoy something or learn more about something that interests them. I enjoy being the translator to make these ideas accessible, whether it be vaulty scientific concepts or documentation for products that enhance our daily lives. 
+This passion followed me all the way to my university years. At the time, I believed the only way to keep rigorously writing—and learning—about science was by becoming a scientist, so I started as a physics major. But while I couldn’t ask for more interesting subject matter, lab reports were not enough to scratch my writer’s itch. Thus, I scrolled through my English department’s course offerings one night and came across two curious words: **technical communication.** 
+
+I haven’t looked back since!
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

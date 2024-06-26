@@ -8,24 +8,34 @@
     - name: Phone
       value: (616) 302-3754
     - name: Location
-      value: Fairfax, VA
+      value: Germantown, MD
 
 - title: Experience
   type: time_table
   contents:
+    - title: Technical Writer
+      department: HUMAN
+      year: May 2024 - Present
+        - HUMAN is a cybersecurity defense platform against bot attacks, digital fraud, and abuse
+        - Joined as a foundational role in Technical Writing, establishing documentation processes in close collaboration with Research & Development to product high-quality product, developer, and API documentation
+        - Contributed to documentation in a docs-as-code workflow, levering source control, pull requests and review, and automated checks
+        - Led efforts to consolidate disparate documentation sources into one cohesive knowledge base, including assessing vendors, coordinating technical and security scoping with internal stakeholders, making final recommendations, and overseeing migration, final setup, and launch
+        - Assessed significant customer pain points and refreshed onboarding documentation, prioritizing technical installation guides relevant for 90% of customers in collaboration with Engineering, Solutions Architecture, and Solutions Engineering
+        - Refreshed Technical Writing policies and procedures for change requests, prioritization, and contribution
+
     - title: Senior Technical Product Writer
       department: GRIN
-      year: July 2021 - Present
+      year: July 2021 - April 2024
       description:
         - Drafted, revised, edited, and published all product-related documentation for 8 Product and Engineering pods, including in-app messaging, product announcements, release notes, UX writing, internal documentation, and customer documentation
-        - Coordinated with cross-functional teams and stakeholders to deliver dcumentation, including Product Management, Product Marketing, Product Design, Engineering, Customer Education, Customer Success, and Technical Success Engineering
+        - Coordinated with cross-functional teams and stakeholders to deliver documentation, including Product Management, Product Marketing, Product Design, Engineering, Customer Education, Customer Success, and Technical Success Engineering
         - Interviewed subject-matter experts (SMEs) to translate their knowledge into documentation, including product managers, product designers, and engineers
         - Operated directly in Jira with 8-week Program Increments (PIs) and 2-week sprints in tandem with Engineering sprints and development cycles
         - Led monthly workshop calls with Customer Success, Customer Success Engineering, and Technical Success Engineering to document common support and customer pain points in documentation 
         - Interviewed customers in product discovery and Product Advisory Group calls to learn about customers&#39; workflows, frustrations, and needs to perform their jobs
         - title: Planned, executed, and delivered multiple technical writing projects, including&#58;
           contents:
-            - Migrating 300&#43; user-facing articles from Zendesk host to Document360
+            - Migrating user-facing articles from Zendesk host to Document360
             - Establishing and maintaining GRIN&#39;s first Technical Writing Style Guide 
             - Defining and maintaining technical writing domains, processes, and responsibilities at GRIN 
             - Auditing, assessing, and reporting on GRIN&#39;s internal technical documentation in Confluence written by Engineering, Cybersecurity, Product Management, and Customer Success Engineering
@@ -72,6 +82,9 @@
 - title: Certifications
   type: time_table
   contents:
+    - year: April 2024
+      title: Google Project Management
+      institution: <a href="https://www.coursera.org/account/accomplishments/specialization/SBEFS5Y86WLW">Google</a>
     - year: June 2023
       title: Information Architecture Fundamentals 
       institution: <a href="https://ude.my/UC-7bf59485-582b-4d1c-8aeb-945d3f485214">Udemy</a> 
@@ -83,6 +96,6 @@
   type: map
   contents:
     - name: Skills 
-      value: Agile methodologies, Markdown, CSS, HTML, Python, R, docs-as-code, project management, API documentation
+      value: Agile methodologies, Markdown, CSS, HTML, Python, R, reStructuredText, XML, docs-as-code, project management, API documentation
     - name: Technologies 
-      value: Jira, Confluence, Github, Guru, Document360, Zendesk, Sphinx, Intercom, Announcekit, Dovetail, Pendo, InVision, Figma, Canva, Adobe Photoshop, Adobe InDesign, Clari Copilot, Loom, Slack, Zoom, Google Suite
+      value: Jira, Confluence, GitHub, Guru, Document360, Zendesk, Docusaurus, Sphinx, Visual Studio Code, Sublime Text, Brackets, Intercom, Announcekit, Dovetail, Pendo, InVision, Figma, Canva, Adobe Photoshop, Adobe InDesign, Clari Copilot, Loom, Slack, Zoom, Google Suite
