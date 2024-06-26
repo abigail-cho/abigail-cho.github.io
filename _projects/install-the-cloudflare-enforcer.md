@@ -59,7 +59,7 @@ using create-cloudflare version 2.21.1
   ./HUMAN-cloudflare-enforcer
 ```
 <ol start="3">
-<li> When prompted, select the `"Hello World" Worker` option and hit `return` to proceed.</li>
+<li> When prompted, select the <code>"Hello World" Worker</code> option and hit <code>return</code> to proceed.</li>
 </ol>
 
 ```sh
@@ -92,7 +92,7 @@ using create-cloudflare version 2.21.1
 ```
 
 <ol start="5">
-<li>When prompted, select `No` to deploying your application.</li>
+<li>When prompted, select <code>No</code> to deploying your application.</li>
 </ol>
 
 ```sh
@@ -116,7 +116,7 @@ Afterwards, you should receive a success message that reads `APPLICATION CREATED
 > You can check the file type you have by entering `ls` while inside the `src` folder. This will show you your `index` file's type.
 
 <ol start="5">
-<li>Delete all the code currently in the `index` file. The following snippet shows all the default code you should delete.</li>
+<li>Delete all the code currently in the <code>index</code> file. The following snippet shows all the default code you should delete.</li>
 </ol>
 
 ```sh
@@ -137,192 +137,16 @@ export default {
 ```
 
 <ol start="6">
-<li>Copy the appropriate code snippet, either TypeScript or JavaScript, from below and paste it into your `index` file.</li>
+<li>Copy the appropriate code snippet, either TypeScript or JavaScript, from below and paste it into your <code>index</code> file.</li>
 </ol>
 
 > **Note**
 >
 > In addition to choosing between TypeScript and JavaScript, you must also make sure to pick the right type of Worker. This can either be an ES Module or Service Module, and it depends on your Cloudflare configuration. You can see some examples from both Workers in [Cloudflare's documentation.](https://developers.cloudflare.com/workers/reference/migrate-to-module-workers/)
 
-<details>
-
-<summary>ES Module Syntax: JavaScript</summary>
-
-```JavaScript
-import {
-    HumanSecurityEnforcer
-} from "@humansecurity/cloudflare-enforcer";
-
-const config = {
-    px_app_id: '<APP_ID>',
-    px_auth_token: '<AUTH_TOKEN>',
-    px_cookie_secret: '<COOKIE_SECRET>',
-    // ...
-};
-
-export default {
-    async fetch(request, env, ctx) {
-        // create a new enforcer
-        const enforcer = await HumanSecurityEnforcer.initialize(config, env);
-
-        // call enforce
-        const retVal = await enforcer.enforce(ctx, request);
-
-        // if enforce returned a response, return that response
-        if (retVal instanceof Response) {
-            return retVal;
-        }
-
-        // retrieve the resource from the cache or origin server
-        // make sure to use the value returned from enforce
-        const response = await fetch(retVal);
-
-        // call postEnforce and return the resulting response
-        return await enforcer.postEnforce(ctx, response);
-    },
-};
-```
-
-</details>
-
-<!-- <details>
-
-<summary>ES Module Syntax: TypeScript</summary>
-
-```TypeScript
-    import {
-        HumanSecurityEnforcer,
-        HumanSecurityConfiguration
-    } from '@humansecurity/cloudflare-enforcer';
-
-    const config: HumanSecurityConfiguration = {
-        px_app_id: '<APP_ID>',
-        px_auth_token: '<AUTH_TOKEN>',
-        px_cookie_secret: '<COOKIE_SECRET>',
-        // ...
-    };
-
-    interface Env {
-        // If using Human Security features that require the PXKV Namespace
-        PXKV: KVNamespace;
-    }
-
-    export default {
-        async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise < Response > {
-            // create a new enforcer
-            const enforcer = await HumanSecurityEnforcer.initialize(config, env);
-
-            // call enforce
-            const retVal = await enforcer.enforce(ctx, request);
-
-            // if enforce returned a response, return that response
-            if (retVal instanceof Response) {
-                return retVal;
-            }
-
-            // retrieve the resource from the cache or origin server
-            // make sure to use the value returned from enforce
-            const response = await fetch(retVal);
-
-            // call postEnforce and return the resulting response
-            return await enforcer.postEnforce(ctx, response);
-        },
-    };
-```
-
-</details>
-
-<details>
-
-<summary>Service Worker Syntax: JavaScript</summary>
-
-```JavaScript
-    import {
-        HumanSecurityEnforcer
-    } from '@humansecurity/cloudflare-enforcer';
-
-    // define an enforcer configuration however you see fit
-    const config = {
-        px_app_id: '<APP_ID>',
-        px_auth_token: '<AUTH_TOKEN>',
-        px_cookie_secret: '<COOKIE_SECRET>',
-        // ...
-    };
-
-    async function handleEvent(event) {
-        // provide the enforcer configuration as an argument and await the returned Promise
-        // to receive an instance of the HumanSecurityEnforcer
-        const enforcer = await HumanSecurityEnforcer.initialize(config);
-
-        // call enforce
-        const retVal = await enforcer.enforce(event);
-
-        // if enforce returned a response, return that response
-        if (retVal instanceof Response) {
-            return retVal;
-        }
-
-        // retrieve the resource from the cache or origin server
-        // make sure to use the value returned from enforce
-        const response = await fetch(retVal);
-
-        // call postEnforce and return the resulting response
-        return await enforcer.postEnforce(event, response);
-    }
-
-    addEventListener('fetch', (event) => {
-        event.respondWith(handleEvent(event));
-    });
-```
-
-</details>
-
-<details>
-
-<summary>Service Worker Syntax: TypeScript</summary>
-
-```TypeScript
-    import {
-        HumanSecurityEnforcer,
-        HumanSecurityConfiguration
-    } from "@humansecurity/cloudflare-enforcer";
-
-    const config: HumanSecurityConfiguration = {
-        px_app_id: '<APP_ID>',
-        px_auth_token: '<AUTH_TOKEN>',
-        px_cookie_secret: '<COOKIE_SECRET>',
-        // ...
-    };
-
-    async function handleEvent(event: FetchEvent): Promise < Response > {
-        // create a new enforcer
-        const enforcer = await HumanSecurityEnforcer.initialize(config);
-
-        // call enforce
-        const retVal = await enforcer.enforce(event);
-
-        // if enforce returned a response, return that response
-        if (retVal instanceof Response) {
-            return retVal;
-        }
-
-        // retrieve the resource from the cache or origin server
-        // make sure to use the value returned from enforce
-        const response = await fetch(retVal);
-
-        // call postEnforce and return the resulting response
-        return await enforcer.postEnforce(event, response);
-    }
-
-    addEventListener('fetch', (event) => {
-        event.respondWith(handleEvent(event));
-    });
-```
-
-</details> -->
 
 <ol start="7">
-<li>Update the `px_app_id`, `px_auth_token`, and `px_cookie_secret` fields with your **Application ID, Server Token,** and **Risk Cookie Key** respectively.</li>
+<li>Update the <code>px_app_id</code>, <code>px_auth_token</code>, and <code>px_cookie_secret</code> fields with your <b>Application ID, Server Token,</b> and <b>Risk Cookie Key</b> respectively.</li>
 </ol>
 
 > **Note**
@@ -338,11 +162,17 @@ const config = {
     // ...
 };
 ```
+
 <ol start="8">
-<li>Hit `ESC` to leave editing mode, then enter `:x` to save and close the file.</li>
-<li>Enter `npx wrangler deploy` to deploy your Worker. You may be prompted to log in to your Cloudflare account.</li>
-<li>Navigate to your Cloudflare dashboard and open **Workers & Pages.** Your new Worker with the HUMAN Enforcer should appear with the same name you gave it in **Create the Cloudflare Worker, Step 2.**</li>
-<li>Select the Worker, then select **Settings > Triggers > Add route** under **Routes** to add the URL or URL patterns for the Enforcer to monitor.</li>
+<li>Save and close the file.</li>
+<li>Enter <code>npx wrangler deploy</code> to deploy your Worker. You may be prompted to log in to your Cloudflare account.</li>
+<li>Navigate to your Cloudflare dashboard and open <b>Workers & Pages.</b> Your new Worker with the HUMAN Enforcer should appear with the same name you gave it in <b>Create the Cloudflare Worker, Step 2.</b></li>
+<li>Select the Worker, then select <b>Settings > Triggers > Add route</b> under <b>Routes.</b> This is where you can you add URL routes and zones to monitor with the Cloudflare Enforcer. We recommend protecting your full domain, including all pages on your domain, with the pattern <code>subdomain.apex.com/*</code>. For example, to protect the full domain of a site with the url <code>www.example.com</code>, you would provide the following fields:
+    <ul>
+        <li><b>Route:</b> <code>www.example.com/*</code></li>
+        <li><b>Zone:</b> <code>example.com</code></li>
+    </ul>    
+</li>
 </ol>
 
 Your Cloudflare Enforcer has been successfully installed with the minimum requirements to monitor activity on your Cloudflare CDN. You can further customize the Enforcer’s behavior by referencing our [configuration options.](https://edocs.humansecurity.com/docs/configuration-cloudflare)
