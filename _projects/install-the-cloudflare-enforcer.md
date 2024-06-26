@@ -148,7 +148,7 @@ export default {
 
 <summary>ES Module Syntax: JavaScript</summary>
 
-```javascript
+```JavaScript
     import {
         HumanSecurityEnforcer
     } from "@humansecurity/cloudflare-enforcer";
@@ -182,13 +182,14 @@ export default {
         },
     };
 ```
+
 </details>
 
 <details>
 
 <summary>ES Module Syntax: TypeScript</summary>
 
-```typescript
+```TypeScript
     import {
         HumanSecurityEnforcer,
         HumanSecurityConfiguration
@@ -228,13 +229,14 @@ export default {
         },
     };
 ```
+
 </details>
 
 <details>
 
 <summary>Service Worker Syntax: JavaScript</summary>
 
-```javascript
+```JavaScript
     import {
         HumanSecurityEnforcer
     } from '@humansecurity/cloudflare-enforcer';
@@ -272,13 +274,14 @@ export default {
         event.respondWith(handleEvent(event));
     });
 ```
+
 </details>
 
 <details>
 
-<summary>>Service Worker Syntax: TypeScript</summary>
+<summary>Service Worker Syntax: TypeScript</summary>
 
-```typescript
+```TypeScript
     import {
         HumanSecurityEnforcer,
         HumanSecurityConfiguration
@@ -315,6 +318,7 @@ export default {
         event.respondWith(handleEvent(event));
     });
 ```
+
 </details>
 
 <ol start="7">
