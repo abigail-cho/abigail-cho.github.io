@@ -16,6 +16,7 @@
     - title: Technical Writer
       department: HUMAN
       year: May 2024 - Present
+      description:
         - HUMAN is a cybersecurity defense platform against bot attacks, digital fraud, and abuse
         - Joined as a foundational role in Technical Writing, establishing documentation processes in close collaboration with Research & Development to product high-quality product, developer, and API documentation
         - Contributed to documentation in a docs-as-code workflow, levering source control, pull requests and review, and automated checks
