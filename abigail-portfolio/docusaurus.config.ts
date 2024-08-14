@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Abigail Cho',
   tagline: 'Technical Writing Portfolio',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/notebook.png',
 
   // Set the production url of your site here
   url: 'https://abigail-cho.github.io',
@@ -48,12 +48,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/headshot.jpg',
     navbar: {
       title: 'Home',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/notebook.png',
       },
       items: [
         {
