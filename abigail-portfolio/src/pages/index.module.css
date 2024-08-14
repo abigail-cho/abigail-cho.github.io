@@ -4,10 +4,29 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 2rem;
+  text-align: left;
   position: relative;
   overflow: hidden;
+}
+
+.propic {
+  max-width: 20%;
+  height: auto;
+  border-radius: 100%;
+  padding: 2rem;
+}
+
+.intro {
+  font-size: 18px;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.introBox {
+  align-items: top;
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 996px) {
@@ -16,8 +35,3 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}

@@ -16,16 +16,29 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
       </div>
     </header>
   );
+}
+
+function Headshot() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <div>
+      <img className={clsx('profile picture', styles.propic)} src={siteConfig.themeConfig.image} />
+    </div>
+  )
+}
+
+function Intro() { 
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <div>
+      <p className={clsx('introduction', styles.intro)}>
+        Welcome to my portfolio! I've been a technical writer for 5 years
+      </p>
+    </div>
+  )
 }
 
 export default function Home(): JSX.Element {
@@ -35,7 +48,10 @@ export default function Home(): JSX.Element {
       title={`${siteConfig.tagline}`}
       description="Abigail Cho's technical writing portfolio">
       <HomepageHeader />
-      
+      <div className={clsx('intro box', styles.introBox)}>
+        <Intro />
+        <Headshot />
+      </div>  
     </Layout>
   );
 }
