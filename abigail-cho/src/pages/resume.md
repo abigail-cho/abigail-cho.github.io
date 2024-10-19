@@ -4,7 +4,7 @@ description: Where I've been
 ---
 
 # Resume
-Where I've been. Email me at [abscho@gmail.com](mailto:abscho@gmail.com) for an appended resume.
+Where I've been. Email me at [abscho@gmail.com](mailto:abscho@gmail.com) for a resume.
 
 ## Work experience
 
@@ -57,6 +57,12 @@ Where I've been. Email me at [abscho@gmail.com](mailto:abscho@gmail.com) for an 
 * Drafted, reviewed, and submitted two full final reports on completed contracts
 * Drafted and published Two Six Labs' first company privacy policy
 * Designed and maintained company marketing collateral, including flyers, recruiting cards, and newsletters
+
+## Contributions
+
+* [help.grin.co](https://help.grin.co/)
+* [api.grin.co](https://api.grin.co/docs/v2/)
+* [docs.humansecurity.com](https://docs.humansecurity.com/)
 
 ## Skills and Tools
 
