@@ -5,19 +5,19 @@
   "source": "@site/docs/guides/understanding-first-party-data.md",
   "sourceDirName": "guides",
   "slug": "/guides/understanding-first-party-data",
-  "permalink": "/docs/guides/understanding-first-party-data",
+  "permalink": "/portfolio/docs/guides/understanding-first-party-data",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "inline": true,
       "label": "Guide",
-      "permalink": "/docs/tags/guide"
+      "permalink": "/portfolio/docs/tags/guide"
     },
     {
       "inline": true,
       "label": "Concept",
-      "permalink": "/docs/tags/concept"
+      "permalink": "/portfolio/docs/tags/concept"
     }
   ],
   "version": "current",
@@ -35,10 +35,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Submitting content for approval",
-    "permalink": "/docs/guides/submitting-content-for-approval/"
+    "permalink": "/portfolio/docs/guides/submitting-content-for-approval/"
   },
   "next": {
     "title": "Developer Documentation",
-    "permalink": "/docs/category/developer-documentation"
+    "permalink": "/portfolio/docs/category/developer-documentation"
   }
 }

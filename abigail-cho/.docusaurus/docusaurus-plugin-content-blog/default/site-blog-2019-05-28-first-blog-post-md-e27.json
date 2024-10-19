@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/first-blog-post",
+  "permalink": "/portfolio/blog/first-blog-post",
   "source": "@site/blog/2019-05-28-first-blog-post.md",
   "title": "First Blog Post",
   "description": "This is a test.",
@@ -8,13 +8,13 @@
     {
       "inline": false,
       "label": "professional",
-      "permalink": "/blog/tags/professional",
+      "permalink": "/portfolio/blog/tags/professional",
       "description": "Content related to my professional life"
     },
     {
       "inline": false,
       "label": "docs-as-code",
-      "permalink": "/blog/tags/docs-as-code",
+      "permalink": "/portfolio/blog/tags/docs-as-code",
       "description": "Content related to docs-as-code"
     }
   ],

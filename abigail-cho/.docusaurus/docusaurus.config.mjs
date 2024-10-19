@@ -8,9 +8,11 @@ export default {
   "tagline": "Technical Writing Portfolio",
   "favicon": "/img/notebook.png",
   "url": "https://abigail-cho.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/portfolio/",
   "organizationName": "abigail-cho",
-  "projectName": "abigail-cho.github.io",
+  "projectName": "portfolio",
+  "deploymentBranch": "gh-pages",
+  "trailingSlash": false,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {

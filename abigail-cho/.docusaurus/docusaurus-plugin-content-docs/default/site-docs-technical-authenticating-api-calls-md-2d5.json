@@ -5,24 +5,24 @@
   "source": "@site/docs/technical/authenticating-api-calls.md",
   "sourceDirName": "technical",
   "slug": "/technical/authenticating-api-calls",
-  "permalink": "/docs/technical/authenticating-api-calls",
+  "permalink": "/portfolio/docs/technical/authenticating-api-calls",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "inline": true,
       "label": "Developer",
-      "permalink": "/docs/tags/developer"
+      "permalink": "/portfolio/docs/tags/developer"
     },
     {
       "inline": true,
       "label": "Task",
-      "permalink": "/docs/tags/task"
+      "permalink": "/portfolio/docs/tags/task"
     },
     {
       "inline": true,
       "label": "Reference",
-      "permalink": "/docs/tags/reference"
+      "permalink": "/portfolio/docs/tags/reference"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Developer Documentation",
-    "permalink": "/docs/category/developer-documentation"
+    "permalink": "/portfolio/docs/category/developer-documentation"
   },
   "next": {
     "title": "GetMyWeather API",
-    "permalink": "/docs/technical/getMyWeatherAPI/"
+    "permalink": "/portfolio/docs/technical/getMyWeatherAPI/"
   }
 }

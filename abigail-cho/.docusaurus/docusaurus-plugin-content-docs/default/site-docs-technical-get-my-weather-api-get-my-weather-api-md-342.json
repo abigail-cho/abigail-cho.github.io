@@ -5,24 +5,24 @@
   "source": "@site/docs/technical/getMyWeatherAPI/getMyWeatherAPI.md",
   "sourceDirName": "technical/getMyWeatherAPI",
   "slug": "/technical/getMyWeatherAPI/",
-  "permalink": "/docs/technical/getMyWeatherAPI/",
+  "permalink": "/portfolio/docs/technical/getMyWeatherAPI/",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "inline": true,
       "label": "Developer",
-      "permalink": "/docs/tags/developer"
+      "permalink": "/portfolio/docs/tags/developer"
     },
     {
       "inline": true,
       "label": "Reference",
-      "permalink": "/docs/tags/reference"
+      "permalink": "/portfolio/docs/tags/reference"
     },
     {
       "inline": true,
       "label": "API",
-      "permalink": "/docs/tags/api"
+      "permalink": "/portfolio/docs/tags/api"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Authenticating API calls",
-    "permalink": "/docs/technical/authenticating-api-calls"
+    "permalink": "/portfolio/docs/technical/authenticating-api-calls"
   },
   "next": {
     "title": "Install the Cloudflare Enforcer",
-    "permalink": "/docs/technical/install-the-cloudflare-enforcer"
+    "permalink": "/portfolio/docs/technical/install-the-cloudflare-enforcer"
   }
 }

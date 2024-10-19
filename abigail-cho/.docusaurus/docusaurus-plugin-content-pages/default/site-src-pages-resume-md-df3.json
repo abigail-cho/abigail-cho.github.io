@@ -1,6 +1,6 @@
 {
   "type": "mdx",
-  "permalink": "/resume",
+  "permalink": "/portfolio/resume",
   "source": "@site/src/pages/resume.md",
   "title": "Resume",
   "description": "Where I've been",

@@ -3,143 +3,143 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'f4d'),
+    path: '/portfolio/blog',
+    component: ComponentCreator('/portfolio/blog', 'da3'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
+    path: '/portfolio/blog/archive',
+    component: ComponentCreator('/portfolio/blog/archive', '5f2'),
     exact: true
   },
   {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
+    path: '/portfolio/blog/authors',
+    component: ComponentCreator('/portfolio/blog/authors', '569'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
+    path: '/portfolio/blog/first-blog-post',
+    component: ComponentCreator('/portfolio/blog/first-blog-post', '1a5'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '287'),
+    path: '/portfolio/blog/tags',
+    component: ComponentCreator('/portfolio/blog/tags', '921'),
     exact: true
   },
   {
-    path: '/blog/tags/docs-as-code',
-    component: ComponentCreator('/blog/tags/docs-as-code', '5ba'),
+    path: '/portfolio/blog/tags/docs-as-code',
+    component: ComponentCreator('/portfolio/blog/tags/docs-as-code', 'e05'),
     exact: true
   },
   {
-    path: '/blog/tags/professional',
-    component: ComponentCreator('/blog/tags/professional', '11d'),
+    path: '/portfolio/blog/tags/professional',
+    component: ComponentCreator('/portfolio/blog/tags/professional', 'c5d'),
     exact: true
   },
   {
-    path: '/resume',
-    component: ComponentCreator('/resume', 'fe3'),
+    path: '/portfolio/resume',
+    component: ComponentCreator('/portfolio/resume', '69f'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '1be'),
+    path: '/portfolio/docs',
+    component: ComponentCreator('/portfolio/docs', 'c68'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', 'a96'),
+        path: '/portfolio/docs',
+        component: ComponentCreator('/portfolio/docs', '4d6'),
         routes: [
           {
-            path: '/docs/tags',
-            component: ComponentCreator('/docs/tags', 'fce'),
+            path: '/portfolio/docs/tags',
+            component: ComponentCreator('/portfolio/docs/tags', '3b8'),
             exact: true
           },
           {
-            path: '/docs/tags/api',
-            component: ComponentCreator('/docs/tags/api', '0eb'),
+            path: '/portfolio/docs/tags/api',
+            component: ComponentCreator('/portfolio/docs/tags/api', '960'),
             exact: true
           },
           {
-            path: '/docs/tags/concept',
-            component: ComponentCreator('/docs/tags/concept', 'a14'),
+            path: '/portfolio/docs/tags/concept',
+            component: ComponentCreator('/portfolio/docs/tags/concept', '36a'),
             exact: true
           },
           {
-            path: '/docs/tags/developer',
-            component: ComponentCreator('/docs/tags/developer', 'f4e'),
+            path: '/portfolio/docs/tags/developer',
+            component: ComponentCreator('/portfolio/docs/tags/developer', '898'),
             exact: true
           },
           {
-            path: '/docs/tags/guide',
-            component: ComponentCreator('/docs/tags/guide', 'ef0'),
+            path: '/portfolio/docs/tags/guide',
+            component: ComponentCreator('/portfolio/docs/tags/guide', '57f'),
             exact: true
           },
           {
-            path: '/docs/tags/reference',
-            component: ComponentCreator('/docs/tags/reference', '00b'),
+            path: '/portfolio/docs/tags/reference',
+            component: ComponentCreator('/portfolio/docs/tags/reference', 'f72'),
             exact: true
           },
           {
-            path: '/docs/tags/task',
-            component: ComponentCreator('/docs/tags/task', 'f73'),
+            path: '/portfolio/docs/tags/task',
+            component: ComponentCreator('/portfolio/docs/tags/task', '726'),
             exact: true
           },
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', 'bd9'),
+            path: '/portfolio/docs',
+            component: ComponentCreator('/portfolio/docs', '94f'),
             routes: [
               {
-                path: '/docs/category/developer-documentation',
-                component: ComponentCreator('/docs/category/developer-documentation', '293'),
+                path: '/portfolio/docs/category/developer-documentation',
+                component: ComponentCreator('/portfolio/docs/category/developer-documentation', '091'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/product-documentation',
-                component: ComponentCreator('/docs/category/product-documentation', '5aa'),
+                path: '/portfolio/docs/category/product-documentation',
+                component: ComponentCreator('/portfolio/docs/category/product-documentation', '7d4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/guides/manually-uploading-content',
-                component: ComponentCreator('/docs/guides/manually-uploading-content', 'f71'),
+                path: '/portfolio/docs/guides/manually-uploading-content',
+                component: ComponentCreator('/portfolio/docs/guides/manually-uploading-content', 'cd6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/guides/submitting-content-for-approval/',
-                component: ComponentCreator('/docs/guides/submitting-content-for-approval/', 'eb0'),
+                path: '/portfolio/docs/guides/submitting-content-for-approval',
+                component: ComponentCreator('/portfolio/docs/guides/submitting-content-for-approval', '506'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/guides/understanding-first-party-data',
-                component: ComponentCreator('/docs/guides/understanding-first-party-data', '4a1'),
+                path: '/portfolio/docs/guides/understanding-first-party-data',
+                component: ComponentCreator('/portfolio/docs/guides/understanding-first-party-data', '635'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/portfolio/docs/intro',
+                component: ComponentCreator('/portfolio/docs/intro', 'dcf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/technical/authenticating-api-calls',
-                component: ComponentCreator('/docs/technical/authenticating-api-calls', '160'),
+                path: '/portfolio/docs/technical/authenticating-api-calls',
+                component: ComponentCreator('/portfolio/docs/technical/authenticating-api-calls', '3a1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/technical/getMyWeatherAPI/',
-                component: ComponentCreator('/docs/technical/getMyWeatherAPI/', '5da'),
+                path: '/portfolio/docs/technical/getMyWeatherAPI',
+                component: ComponentCreator('/portfolio/docs/technical/getMyWeatherAPI', '3ed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/technical/install-the-cloudflare-enforcer',
-                component: ComponentCreator('/docs/technical/install-the-cloudflare-enforcer', 'ba7'),
+                path: '/portfolio/docs/technical/install-the-cloudflare-enforcer',
+                component: ComponentCreator('/portfolio/docs/technical/install-the-cloudflare-enforcer', '513'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -150,8 +150,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e5f'),
+    path: '/portfolio/',
+    component: ComponentCreator('/portfolio/', '467'),
     exact: true
   },
   {

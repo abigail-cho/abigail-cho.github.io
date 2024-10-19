@@ -5,19 +5,19 @@
   "source": "@site/docs/technical/install-the-cloudflare-enforcer.mdx",
   "sourceDirName": "technical",
   "slug": "/technical/install-the-cloudflare-enforcer",
-  "permalink": "/docs/technical/install-the-cloudflare-enforcer",
+  "permalink": "/portfolio/docs/technical/install-the-cloudflare-enforcer",
   "draft": false,
   "unlisted": false,
   "tags": [
     {
       "inline": true,
       "label": "Developer",
-      "permalink": "/docs/tags/developer"
+      "permalink": "/portfolio/docs/tags/developer"
     },
     {
       "inline": true,
       "label": "Task",
-      "permalink": "/docs/tags/task"
+      "permalink": "/portfolio/docs/tags/task"
     }
   ],
   "version": "current",
@@ -35,6 +35,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "GetMyWeather API",
-    "permalink": "/docs/technical/getMyWeatherAPI/"
+    "permalink": "/portfolio/docs/technical/getMyWeatherAPI/"
   }
 }
