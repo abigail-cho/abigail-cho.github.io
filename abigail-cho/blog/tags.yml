@@ -1,0 +1,8 @@
+professional:
+  label: professional
+  permalink: /professional
+  description: Content related to my professional life
+docs-as-code:
+  label: docs-as-code
+  permalink: /docs-as-code
+  description: Content related to docs-as-code

@@ -1,0 +1,8 @@
+{
+  "label": "Product documentation",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "A collection of product documentation for non-technical audiences."
+  }
+}
