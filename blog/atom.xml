@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/blog</id>
+    <id>https://abigail-cho.github.io/blog</id>
     <title>Abigail Cho Blog</title>
     <updated>2019-05-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/blog"/>
+    <link rel="alternate" href="https://abigail-cho.github.io/blog"/>
     <subtitle>Abigail Cho Blog</subtitle>
-    <icon>https://github.com/img/notebook.png</icon>
+    <icon>https://abigail-cho.github.io/img/notebook.png</icon>
     <entry>
         <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://github.com/blog/first-blog-post</id>
-        <link href="https://github.com/blog/first-blog-post"/>
+        <id>https://abigail-cho.github.io/blog/first-blog-post</id>
+        <link href="https://abigail-cho.github.io/blog/first-blog-post"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a test.]]></summary>
-        <content type="html"><![CDATA[<p>This is a test.</p>]]></content>
+        <summary type="html"><![CDATA[This is a test to see if github actions work.]]></summary>
+        <content type="html"><![CDATA[<p>This is a test to see if github actions work.</p>
+<p>continuing to test with the ssh options.</p>]]></content>
         <author>
             <name>Abby Cho</name>
             <uri>https://github.com/abigail-cho</uri>
