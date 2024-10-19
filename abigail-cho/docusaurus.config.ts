@@ -8,15 +8,17 @@ const config: Config = {
   favicon: '/img/notebook.png',
 
   // Set the production url of your site here
-  url: 'https://abigail-cho.github.io',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/portfolio/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'abigail-cho', // Usually your GitHub org/user name.
-  projectName: 'abigail-cho.github.io', // Usually your repo name.
+  projectName: 'portfolio', // Usually your repo name.
+  deploymentBranch: "gh-pages",
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
