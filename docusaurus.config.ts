@@ -18,6 +18,7 @@ const config: Config = {
   organizationName: 'abigail-cho', // Usually your GitHub org/user name.
   projectName: 'abigail-cho.github.io', // Usually your repo name.
   deploymentBranch: 'main',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
