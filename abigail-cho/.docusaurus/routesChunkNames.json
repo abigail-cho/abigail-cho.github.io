@@ -1,212 +1,169 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/blog-f4d": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blogc-15-573"
+    "__props": "c15d9823"
   },
   "/blog/archive-182": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "__props": "__props---blog-archivef-81-229"
+    "__props": "f81c1134"
   },
   "/blog/authors-0b7": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-authorsef-8-44f"
+    "sidebar": "814f3328",
+    "__props": "ef8b811a"
   },
   "/blog/first-blog-post-89a": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-first-blog-poste-27-4a1"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
   "/blog/tags-287": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
-    "__props": "__props---blog-tags-3-a-2-fa2"
+    "sidebar": "814f3328",
+    "__props": "3a2db09e"
   },
   "/blog/tags/docs-as-code-5ba": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blog-tags-docs-as-code-125-dab"
+    "__props": "125e9e4b"
   },
   "/blog/tags/professional-11d": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---blog-369-22e"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---blog-814-8ac",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---blog-925-e00"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---blog-tags-professionala-39-8c4"
+    "__props": "a3934bb8"
   },
   "/resume-fe3": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---resumea-74-193"
+      "plugin": "a7456010"
     },
-    "content": "content---resumedf-3-efa"
+    "content": "df377a91"
   },
   "/docs-1be": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "aba21aa0"
     }
   },
   "/docs-a96": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+    "__comp": "a7bd4aaa",
+    "__props": "0058b4c6"
   },
   "/docs/tags-fce": {
-    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
-    "__props": "__props---docs-tags-898-65c"
+    "__comp": "3720c009",
+    "__props": "898514b1"
   },
   "/docs/tags/api-0eb": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-apif-64-14c"
+    "__comp": "df203c0f",
+    "__props": "f644aac7"
   },
   "/docs/tags/concept-a14": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-concept-957-30d"
+    "__comp": "df203c0f",
+    "__props": "957cdf92"
   },
   "/docs/tags/developer-f4e": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-developer-299-a0f"
+    "__comp": "df203c0f",
+    "__props": "2994d6b6"
   },
   "/docs/tags/guide-ef0": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-guide-158-252"
+    "__comp": "df203c0f",
+    "__props": "15801661"
   },
   "/docs/tags/reference-00b": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-reference-154-085"
+    "__comp": "df203c0f",
+    "__props": "1540bf50"
   },
   "/docs/tags/task-f73": {
-    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
-    "__props": "__props---docs-tags-task-27-d-bad"
+    "__comp": "df203c0f",
+    "__props": "27d5e5eb"
   },
   "/docs-bd9": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/docs/category/developer-documentation-293": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-developer-documentationd-77-dc5"
+    "__comp": "14eb3368",
+    "__props": "d77d44bd"
   },
   "/docs/category/product-documentation-5aa": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---docs-category-product-documentationef-1-119"
+    "__comp": "14eb3368",
+    "__props": "ef1af2ad"
   },
   "/docs/guides/manually-uploading-content-f71": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-guides-manually-uploading-content-3-a-6-a07"
+    "__comp": "17896441",
+    "content": "3a6cb029"
   },
   "/docs/guides/submitting-content-for-approval/-eb0": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-guides-submitting-content-for-approval-2-f-0-928"
+    "__comp": "17896441",
+    "content": "2f090447"
   },
   "/docs/guides/understanding-first-party-data-4a1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-guides-understanding-first-party-data-9-f-0-23f"
+    "__comp": "17896441",
+    "content": "9f06f747"
   },
   "/docs/intro-61d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/docs/technical/authenticating-api-calls-160": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-technical-authenticating-api-calls-2-d-5-1cd"
+    "__comp": "17896441",
+    "content": "2d55bc2a"
   },
   "/docs/technical/getMyWeatherAPI/-5da": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-technical-get-my-weather-api-342-bde"
+    "__comp": "17896441",
+    "content": "3427c84e"
   },
   "/docs/technical/install-the-cloudflare-enforcer-ba7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-technical-install-the-cloudflare-enforcerc-5-c-c68"
+    "__comp": "17896441",
+    "content": "c5c6e599"
   },
   "/-e5f": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---resumea-74-193"
+      "plugin": "a7456010"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "5e9f5e1a"
   }
 }
