@@ -1,0 +1,50 @@
+{
+  "id": "technical/authenticating-api-calls",
+  "title": "Authenticating API calls",
+  "description": "An article instructing how to authenticate API calls for two versions of an API",
+  "source": "@site/docs/technical/authenticating-api-calls.md",
+  "sourceDirName": "technical",
+  "slug": "/technical/authenticating-api-calls",
+  "permalink": "/docs/technical/authenticating-api-calls",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "inline": true,
+      "label": "Developer",
+      "permalink": "/docs/tags/developer"
+    },
+    {
+      "inline": true,
+      "label": "Task",
+      "permalink": "/docs/tags/task"
+    },
+    {
+      "inline": true,
+      "label": "Reference",
+      "permalink": "/docs/tags/reference"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "id": "authenticating-api-calls",
+    "title": "Authenticating API calls",
+    "sidebar_label": "Authenticating API calls",
+    "description": "An article instructing how to authenticate API calls for two versions of an API",
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Developer",
+      "Task",
+      "Reference"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developer Documentation",
+    "permalink": "/docs/category/developer-documentation"
+  },
+  "next": {
+    "title": "GetMyWeather API",
+    "permalink": "/docs/technical/getMyWeatherAPI/"
+  }
+}

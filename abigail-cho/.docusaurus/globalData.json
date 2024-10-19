@@ -1,0 +1,73 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "guides/manually-uploading-content",
+              "path": "/docs/guides/manually-uploading-content",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/submitting-content-for-approval/submitting-content-for-approval",
+              "path": "/docs/guides/submitting-content-for-approval/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/understanding-first-party-data",
+              "path": "/docs/guides/understanding-first-party-data",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/authenticating-api-calls",
+              "path": "/docs/technical/authenticating-api-calls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/getMyWeatherAPI/getmyweather-api",
+              "path": "/docs/technical/getMyWeatherAPI/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical/install-the-cloudflare-enforcer",
+              "path": "/docs/technical/install-the-cloudflare-enforcer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/product-documentation",
+              "path": "/docs/category/product-documentation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/developer-documentation",
+              "path": "/docs/category/developer-documentation",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

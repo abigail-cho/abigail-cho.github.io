@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/resume",
+  "source": "@site/src/pages/resume.md",
+  "title": "Resume",
+  "description": "Where I've been",
+  "frontMatter": {
+    "title": "Resume",
+    "description": "Where I've been"
+  },
+  "unlisted": false
+}
