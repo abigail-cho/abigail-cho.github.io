@@ -8,18 +8,16 @@
     <subtitle>Abigail Cho Blog</subtitle>
     <icon>https://abigail-cho.github.io/img/notebook.png</icon>
     <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://abigail-cho.github.io/blog/first-blog-post</id>
-        <link href="https://abigail-cho.github.io/blog/first-blog-post"/>
+        <title type="html"><![CDATA[Learning to say "no, but..."]]></title>
+        <id>https://abigail-cho.github.io/blog/learning-to-say-no-but</id>
+        <link href="https://abigail-cho.github.io/blog/learning-to-say-no-but"/>
         <updated>2024-10-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a test to see if github actions work.]]></summary>
-        <content type="html"><![CDATA[<p>This is a test to see if github actions work.</p>
-<p>continuing to test with the ssh options.</p>]]></content>
+        <summary type="html"><![CDATA[TBA]]></summary>
+        <content type="html"><![CDATA[<p>TBA</p>]]></content>
         <author>
             <name>Abby Cho</name>
             <uri>https://github.com/abigail-cho</uri>
         </author>
         <category label="professional" term="professional"/>
-        <category label="docs-as-code" term="docs-as-code"/>
     </entry>
 </feed>

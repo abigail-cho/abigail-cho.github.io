@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkabigail_portfolio=self.webpackChunkabigail_portfolio||[]).push([[8121],{8070:o=>{o.exports=JSON.parse('{"tags":[{"label":"professional","permalink":"/blog/tags/professional","description":"Content related to my professional life","count":1}]}')}}]);

@@ -9,15 +9,13 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://abigail-cho.github.io/blog/first-blog-post</link>
-            <guid>https://abigail-cho.github.io/blog/first-blog-post</guid>
+            <title><![CDATA[Learning to say "no, but..."]]></title>
+            <link>https://abigail-cho.github.io/blog/learning-to-say-no-but</link>
+            <guid>https://abigail-cho.github.io/blog/learning-to-say-no-but</guid>
             <pubDate>Sat, 19 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is a test to see if github actions work.]]></description>
-            <content:encoded><![CDATA[<p>This is a test to see if github actions work.</p>
-<p>continuing to test with the ssh options.</p>]]></content:encoded>
+            <description><![CDATA[TBA]]></description>
+            <content:encoded><![CDATA[<p>TBA</p>]]></content:encoded>
             <category>professional</category>
-            <category>docs-as-code</category>
         </item>
     </channel>
 </rss>
