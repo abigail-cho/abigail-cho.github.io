@@ -11,8 +11,6 @@ export default {
   "baseUrl": "/",
   "organizationName": "abigail-cho",
   "projectName": "abigail-cho.github.io",
-  "deploymentBranch": "main",
-  "trailingSlash": false,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
