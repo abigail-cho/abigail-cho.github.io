@@ -6,3 +6,7 @@ docs-as-code:
   label: docs-as-code
   permalink: /docs-as-code
   description: Content related to docs-as-code
+personal:
+  label: personal
+  permalink: /personal
+  description: Content still related to tech writing, but more observations from my personal life.
