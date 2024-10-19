@@ -1,0 +1,22 @@
+{
+  "id": "technical/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/technical/congratulations.md",
+  "sourceDirName": "technical",
+  "slug": "/technical/congratulations",
+  "permalink": "/docs/technical/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developer Documentation",
+    "permalink": "/docs/category/developer-documentation"
+  }
+}

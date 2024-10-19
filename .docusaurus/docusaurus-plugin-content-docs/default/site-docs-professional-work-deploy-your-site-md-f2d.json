@@ -1,0 +1,26 @@
+{
+  "id": "professional work/deploy-your-site",
+  "title": "Deploy your site",
+  "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+  "source": "@site/docs/professional work/deploy-your-site.md",
+  "sourceDirName": "professional work",
+  "slug": "/professional work/deploy-your-site",
+  "permalink": "/docs/professional work/deploy-your-site",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/docs/professional work/markdown-features"
+  },
+  "next": {
+    "title": "Congratulations!",
+    "permalink": "/docs/professional work/congratulations"
+  }
+}
