@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkabigail_portfolio=self.webpackChunkabigail_portfolio||[]).push([[7463],{5014:a=>{a.exports=JSON.parse('{"authors":[{"name":"Abby Cho","url":"https://github.com/abigail-cho","key":"abby","page":null,"count":1}]}')}}]);
