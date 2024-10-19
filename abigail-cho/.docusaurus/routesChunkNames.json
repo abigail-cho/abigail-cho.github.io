@@ -62,11 +62,22 @@
     },
     "__props": "__props---blog-archivef-81-229"
   },
+  "/blog/authors-0b7": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authorsef-8-44f"
+  },
   "/blog/first-blog-post-89a": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---blog-first-blog-postace-ee5"
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
       },
       "plugin": "plugin---blog-369-22e"
     },

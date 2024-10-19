@@ -48,6 +48,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/authors',
+    component: ComponentCreator('/blog/authors', '0b7'),
+    exact: true
+  },
+  {
     path: '/blog/first-blog-post',
     component: ComponentCreator('/blog/first-blog-post', '89a'),
     exact: true
