@@ -7,7 +7,7 @@ export default {
   "title": "Abigail Cho",
   "tagline": "Technical Writing Portfolio",
   "favicon": "/img/notebook.png",
-  "url": "https://abigail-cho.github.io",
+  "url": "https://github.com",
   "baseUrl": "/portfolio/",
   "organizationName": "abigail-cho",
   "projectName": "portfolio",
