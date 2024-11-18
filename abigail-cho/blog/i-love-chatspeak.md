@@ -2,7 +2,7 @@
 slug: why-i-love-chatspeak
 title: Why I love chatspeak
 authors: abby
-date: 2024-10-25
+date: 2024-11-18
 tags: [personal]
 ---
 
@@ -10,7 +10,7 @@ I don't know if I'm in the minority for this or if all tech writers feel this wa
 
 <!-- truncate -->
 
-## The "Official Writer" effect
+## The "Official Writer" (💀) effect 
 
 Most of my positions so far have been remote, so most of my introductions with coworkers have been through text. Now, I understand that you always want to put your best foot forward when introducing yourself to a coworker for the first time, but so far, most of the messages people have sent me have been something like this: 
 
@@ -25,4 +25,22 @@ This was my first time working in a fully remote company that worked over Slack,
 
 So I started a small experiment. Instead of replying with something like "Hello fellow human! I am also enthused to make your acquaintance!", I started saying "hi nice to meet u too :) what's up?" 
 
-And inexplicably, my colleagues dropped the pretense and started speaking more casually to me. 
+## omggg that's so lit bruh 🔥🔥 fr
+
+Inexplicably, after I set the tone of the conversation, my colleagues dropped the pretense and started speaking more casually to me. And this was great&mdash;not necessarily because this meant they were more comfortable around me (although this is always nice), but because once they stopped feeling to need to use "proper" speech, **I got to the heart of the problem faster.** This was an observable pattern that I found: once these was less pressure to speak formally to me, my colleagues were able to describe what the issue was and why it mattered in:
+
+* Clearer language
+* Fewer words
+* Less time
+
+From a technical writer's point of view, that's hella. 
+
+It not only saved both of us a lot of minutes, but it also made my life easier because there was **less ambiguity** around the request. With complicated language, there's always the risk of the audience not understanding the true intent&mdash;as technical writers are more than familiar with. Pithier, casual conversations using language that was more familiar to the speaker tended to yield better results. I didn't have to spend more effort from asking questions like, "Okay, can you clarify this?" or "I still don't understand what you mean by that. Can you explain further?" Instead, both me and my colleagues came away from the conversations satisfied.
+
+## 💯💯💯 bet
+
+Of course, science demanded that I repeat the experiment multiple times before drawing any real conclusions from it. And I'm happy to report that I've tried this in two different companies now with at least fifty different colleagues, and I can confidently say that speaking casually still makes the asks faster and clearer. People aren't bogged down by the worry that I'll judge them (or something) for making typos, using abbreviations, or using chatspeak in the workplace. In fact, these days, I actively use it first wherever appropriate and try to encourage it wherever I can.
+
+So, while it might not be "proper" or "correct" to say "lmaooo yea i get that. np i can do that for u by eow" in response to a request, I will say that it's made the job **easier**&mdash;so this "official writer" gives her official stamp of approval for Internet slang and straightforwardness in the workplace.
+
+Abby out! ✌️
