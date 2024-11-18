@@ -6,7 +6,7 @@ date: 2024-11-18
 tags: [personal]
 ---
 
-I don't know if I'm in the minority for this or if all tech writers feel this way, but my hot take is that chatspeak is the best way to communicate in the workplace and in general (lol).
+I don't know if I'm in the minority for this or if all tech writers feel this way, but my hot take is that chatspeak is the best way to communicate in the workplace and in general (lol). It's shorter, it's faster, and it's (usually) clearer than full-form text.
 
 <!-- truncate -->
 
