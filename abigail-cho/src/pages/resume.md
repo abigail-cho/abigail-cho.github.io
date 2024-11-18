@@ -17,6 +17,8 @@ Where I've been. Email me at [abscho@gmail.com](mailto:abscho@gmail.com) for a r
 * Led efforts to consolidate disparate documentation sources into one cohesive knowledge base, including assessing vendors, coordinating technical and security scoping with internal stakeholders, making final recommendations, and overseeing migration, final setup, and launch
 * Assessed significant customer pain points and refreshed onboarding documentation, prioritizing technical installation guides relevant for 90% of customers in collaboration with Engineering, Solutions Architecture, and Solutions Engineering
 * Refreshed Technical Writing policies and procedures for change requests, prioritization, and contribution
+* Documented developer installation guides for HUMAN Enforcers, which are SDKs installed on a CDN or mobile environment. 
+* Converted text and table-based API documentation into OpenAPI 3.0 format for an interactive user experience.
 
 ### GRIN
 
