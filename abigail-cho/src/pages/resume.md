@@ -14,11 +14,15 @@ Where I've been. Email me at [abscho@gmail.com](mailto:abscho@gmail.com) for a r
 * HUMAN is a cybersecurity defense platform against bot attacks, digital fraud, and abuse
 * Joined as a foundational role in Technical Writing, establishing documentation processes in close collaboration with Research & Development to product high-quality product, developer, and API documentation
 * Contributed to documentation in a docs-as-code workflow, levering source control, pull requests and review, and automated checks
-* Led efforts to consolidate disparate documentation sources into one cohesive knowledge base, including assessing vendors, coordinating technical and security scoping with internal stakeholders, making final recommendations, and overseeing migration, final setup, and launch
 * Assessed significant customer pain points and refreshed onboarding documentation, prioritizing technical installation guides relevant for 90% of customers in collaboration with Engineering, Solutions Architecture, and Solutions Engineering
-* Refreshed Technical Writing policies and procedures for change requests, prioritization, and contribution
-* Documented developer installation guides for HUMAN Enforcers, which are SDKs installed on a CDN or mobile environment. 
-* Converted text and table-based API documentation into OpenAPI 3.0 format for an interactive user experience.
+* Planned, executed, and delivered multiple technical writing projects, including: 
+    * Established Technical Writing policies and procedures for change requests, prioritization, and contribution
+    * Standardized the breadth of information to include in documentation in collaboration with the Security and Product teams
+    * Consolidated and migrated disparate sources of documentation into one single source of truth
+    * Established a docs-as-code workflow process in the organization, allowing engineers and solutions architects to contribute to documentation directly
+    * Updated and tested the most-used developer installation guides for HUMAN Enforcers, which are SDKs installed on a CDN or mobile environment
+    * Converted text and table-based API documentation into OpenAPI 3.0 format for a more dynamic and interactive user experience
+    * Optimized SEO health by updating title tags, article metadata, and permanent redirects, as well as auditing the product for expired links
 
 ### GRIN
 
