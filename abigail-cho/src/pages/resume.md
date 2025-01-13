@@ -72,9 +72,9 @@ Where I've been. Email me at [abscho@gmail.com](mailto:abscho@gmail.com) for a r
 
 ## Skills and Tools
 
-**Skills:** Agile methodologies, Markdown, CSS, HTML, Python, R, reStructuredText, XML, docs-as-code, project management, API documentation, how-to articles
+**Skills:** Agile methodologies, Markdown, MDX, YAML, OpenAPI Specification, CSS, HTML, Python, R, reStructuredText, XML, docs-as-code, project management, API documentation, how-to articles
 
-**Tools:** 	Jira, Confluence, GitHub, Guru, Document360, Zendesk, Docusaurus, Sphinx, Mintlify, Visual Studio Code, Sublime Text, Brackets, Intercom, Announcekit, Dovetail, Pendo, InVision, Figma, Canva, Adobe Photoshop, Adobe InDesign, Clari Copilot, Loom, Slack, Zoom, Google Suite
+**Tools:** 	Jira, Confluence, Git, GitHub, Guru, Document360, Zendesk, Docusaurus, Sphinx, ReadMe, Mintlify, Visual Studio Code, Sublime Text, Brackets, Intercom, Announcekit, Dovetail, Pendo, InVision, Snagit, Figma, Canva, Adobe Photoshop, Adobe InDesign, Clari Copilot, Loom, Slack, Zoom, Google Suite
 
 ## Certifications
 
