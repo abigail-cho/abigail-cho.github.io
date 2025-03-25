@@ -19,7 +19,7 @@ This article is available publicly, so nothing has been redacted in the sample. 
 
 ## Understanding Sightline Dashboard activity
 
-If you ever wonder about what went on behind an attack or need to report on how you know a spike in activity was from bots, then you can use the **HUMAN Sightline Dashboard** as a secondary detection tool. This dashboard features **Attack Profiles,** or the unique entities that are behind your bot traffic, to help you learn about bot behavior on your application. Then, you can summarize that information to continue to monitor those Attack Profiles or share what you’ve learned with your team.
+If you ever wonder about what went on behind an attack or need to report on how you know a spike in activity was from bots, then you can use the **HUMAN Sightline Dashboard** as a [secondary detection](/docs/terms/secondary-detection.md) tool. This dashboard features **Attack Profiles,** or the unique entities that are behind your bot traffic, to help you learn about bot behavior on your application. Then, you can summarize that information to continue to monitor those Attack Profiles or share what you’ve learned with your team.
 
 You can learn more about understanding attacks with the Sightline Dashboard in this article. See our articles on the [Sightline Dashboard](https://docs.humansecurity.com/applications-and-accounts/docs/sightline-dashboard) or [Attack Profiles](https://docs.humansecurity.com/applications-and-accounts/docs/about-attack-profiles) to learn more about what you can achieve with HUMAN Sightline.
 
@@ -43,7 +43,8 @@ The Dashboard always shows the largest Attack Profiles, which means that attack 
 
 You can learn more about available filters in our [Sightline Dashboard](https://docs.humansecurity.com/applications-and-accounts/docs/sightline-dashboard) article.
 
-3. Look for interesting activity
+#### 3. Look for interesting activity
+
 Once you apply your filters, the next step is looking out for interesting activity in your data. A good place to start is the Attack Profiles Over Time graph, which shows the distribution of blocked traffic over time. While looking over this graph, you might spot unusual patterns such as:
 
 A sudden spike in activity over a short period of time
