@@ -112,4 +112,14 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
+module.exports = {
+plugins: [
+  ['@grnet/docusaurus-terminology', {
+    termsDir: './docs/terms',
+    docsDir: './docs/',
+    glossaryFilepath: './docs/glossary.md'
+  }],
+],
+};
+
 export default config;
