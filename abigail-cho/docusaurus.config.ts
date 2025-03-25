@@ -60,16 +60,26 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'productSidebar',
           position: 'left',
-          label: 'Portfolio',
+          label: 'Product docs',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'devSidebar',
+          position: 'left',
+          label: 'Developer docs'
         },
         {
           href: '/resume',
           label: 'Resume',
           position: 'left',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: '/blog',
+          label: 'Blog',
+          position: 'left'
+        },
         {
           href: 'https://github.com/abigail-cho',
           label: 'GitHub',
