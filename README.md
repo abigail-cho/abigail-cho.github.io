@@ -1,3 +1,3 @@
 # Abigail Cho's technical writing portfolio
 
-This is a technical writing portfolio for Abigail Cho, hosted on [Docusaurus.](https://docusaurus.io/) You can view the full site at [https://abigail-cho.github.io/](https://abigail-cho.github.io/).
+This used to be my tech writing portfolio, but I moved! You can find my new portfolio at [https://abby.mintlify.app/](https://abby.mintlify.app/introduction).
